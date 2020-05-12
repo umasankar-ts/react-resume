@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import Banner from '../component/BannerComponent'
 function Header(){
     return (
@@ -8,7 +7,7 @@ function Header(){
             <nav className="navbar navbar-expand-md bg-inverse top-nav-collapse">
                 <div className="container">
                     {/*Brand and toggle get grouped for better mobile display*/}
-                    <a href="index.html" className="navbar-brand"><img src="assets/img/logo.png" alt=""/></a>
+                    <a href="index.html" className="navbar-brand"><img src="/images/logo.png" alt="Logo"/></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarCollapse"
                             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +26,7 @@ function Header(){
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#qualification">
+                                <a className="nav-link" href="#features">
                                     Qualifications
                                 </a>
                             </li>

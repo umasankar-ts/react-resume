@@ -1,12 +1,11 @@
 import React from 'react';
-import '../App.css';
 
 function About() {
     return (
         <section id="about" className="section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 col-xs-12 info">
+                    <div className="col-lg-6 col-md-6 col-12 info">
                         <div className="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
                             <div className="site-heading">
                                 <h2 className="section-title">About Myself</h2>
@@ -76,7 +75,63 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-xs-12">
+                    <div className="col-lg-6 col-md-6 col-12">
+                        <ul className="skills-bar-container">
+                            <li>
+                                <div className="progressbar-title">
+                                    <h3>Kotlin</h3>
+                                    <span className="percent dark-font" id="kotlin-percent"></span>
+                                </div>
+                                <div className="bar-container">
+                                    <span className="progressbar progressblue" id="progress-kotlin"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="progressbar-title">
+                                    <h3>Java</h3>
+                                    <span className="percent dark-font" id="java-percent"></span>
+                                </div>
+                                <div className="bar-container">
+                                    <span className="progressbar progressblue" id="progress-java"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="progressbar-title">
+                                    <h3>Android NDK</h3>
+                                    <span className="percent dark-font" id="android-percent"></span>
+                                </div>
+                                <div className="bar-container">
+                                    <span className="progressbar progressblue" id="progress-android"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="progressbar-title">
+                                    <h3>Couchbase DB</h3>
+                                    <span className="percent dark-font" id="db-percent"></span>
+                                </div>
+                                <div className="bar-container">
+                                    <span className="progressbar progressblue" id="progress-db"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="progressbar-title">
+                                    <h3>Nativescript</h3>
+                                    <span className="percent dark-font" id="nativescript-percent"></span>
+                                </div>
+                                <div className="bar-container">
+                                    <span className="progressbar progressblue" id="progress-nativescript"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="progressbar-title">
+                                    <h3>Vuejs</h3>
+                                    <span className="percent dark-font" id="vuejs-percent"></span>
+                                </div>
+                                <div className="bar-container">
+                                    <span className="progressbar progressblue" id="progress-vuejs"></span>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

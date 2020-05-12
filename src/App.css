@@ -833,44 +833,44 @@ hr {
 }
 
 .banner-img1 {
-    bottom: 82%;
-    left: 35%;
+    bottom: 86%;
+    left: 36%;
     transform: rotate(-15deg);
     -webkit-transform: rotate(-15deg);
 }
 
 .banner-img2 {
     bottom: 100%;
-    left: -2%;
+    left: 0%;
     transform: rotate(-12deg);
     -webkit-transform: rotate(-12deg);
 }
 
 .banner-img3 {
-    bottom: 68%;
-    left: -20%;
+    bottom: 75%;
+    left: -17%;
     transform: rotate(12deg);
     -webkit-transform: rotate(12deg);
 }
 
 .banner-img4 {
-    bottom: 27%;
-    left: -6%;
+    bottom: 42%;
+    left: -4%;
 }
 
 .banner-img5 {
-    bottom: -7%;
-    left: -18%;
+    bottom: 15%;
+    left: -15%;
 }
 
 .banner-img6 {
-    bottom: -22%;
-    left: 20%;
+    bottom: 3%;
+    left: 21%;
 }
 
 .banner-img7 {
-    bottom: 8%;
-    left: 35%;
+    bottom: 26%;
+    left: 36%;
     transform: rotate(-12deg);
     -webkit-transform: rotate(-7deg);
 }
