@@ -75,12 +75,14 @@ a a:focus {
 }
 
 p {
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
-    font-size: 14px
+    font-size: 15px
 }
+.margin-t-20{
+    margin-top: 20px;
 
+}
 /*============
 Colors
 ===========*/
@@ -102,6 +104,9 @@ Colors
 }
 .secondary-dark-font{
     color: #c99c33
+}
+.white-font{
+    color: #fff;
 }
 /*====================
 Initial start page
@@ -147,7 +152,9 @@ Initial start page
 
 }
 
-/*Sidebar*/
+/*=================
+Sidebar
+==================*/
 .sidebar {
     box-shadow: 10px 15px 30px 1px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 10px 15px 30px 1px rgba(0, 0, 0, .1);
@@ -179,13 +186,33 @@ Initial start page
     margin-right: 12px;
     font-size: 16px
 }
+.profile-pic-section{
+    padding: 40px 10px;
+    border-top-right-radius: 25px;
+}
+.profile-image{
+    width: 120px;
+    height: 120px;
+}
+.profile-pic-border{
+    border-radius: 50%;
+    /*border: 1px solid olivedrab;*/
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(to right, #425c5a,#c99c33);
 
+}
+/*=======================*/
+
+/*======================
+      Content
+======================*/
 .content-wrapper{
-    padding: 20px ;
+    padding: 20px 30px;
 }
 .card-style{
     background-color: #fff;
     border-radius: 20px;
-    padding: 15px
+    padding: 25px
 }
 
