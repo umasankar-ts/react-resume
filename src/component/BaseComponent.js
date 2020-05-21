@@ -6,7 +6,7 @@ class BaseComponent extends Component {
         return (
             <div className="container-fluid content-light-bg">
                 <div className="row">
-                    <div className="col-md-2 sidebar primary-dark-bg">
+                    <div className="col-md-2 sidebar primary-light-bg">
                         <SidebarComponent></SidebarComponent>
                     </div>
                     <div className="col-md-10 content-wrapper">
