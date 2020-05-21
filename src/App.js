@@ -24,10 +24,7 @@ class App extends Component {
                     <div className="row" align="center">
                         <div className="col-md-12">
                             <div className="fingerprint-section">
-                                <img src="../images/fingerprint.png" className="img-fluid finger-print-img"/>
-                                <div className="proceed-btn-section">
-                                    <button className="btn gradient-btn" onClick={this.clickHandler}>Proceed</button>
-                                </div>
+                                <img src="../images/fingerprint.png" onClick={this.clickHandler} className="img-fluid finger-print-img"/>                                
                             </div>
                         </div>
                     </div>

@@ -53,9 +53,8 @@ body {
 
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     color: #010101;
-    font-weight: 700;
     font-family: 'Poppins', sans-serif
 }
 
@@ -83,6 +82,10 @@ p {
     margin-top: 20px;
 
 }
+.fancy-title{
+    font-weight: 505 !important;
+    margin-bottom: 20px
+}
 /*============
 Colors
 ===========*/
@@ -90,11 +93,14 @@ Colors
 .primary-dark-bg{
     background-color: #3d5654
 }
+.primary-light-bg{
+    background-color: #425c5a
+}
 .primary-dark-font{
     color: #425c5a
 }
-.primary-light-bg{
-    background-color: #425c5a
+.primary-light-font{
+    color: #425c5a
 }
 .content-light-bg{
     background-color: #e1eceb
@@ -107,6 +113,9 @@ Colors
 }
 .white-font{
     color: #fff;
+}
+.white-bg{
+    background-color: #fff
 }
 /*====================
 Initial start page
@@ -122,11 +131,11 @@ Initial start page
 
 }
 
-.proceed-btn-section {
+/*.proceed-btn-section {
     margin: 50px 0px
-}
+}*/
 
-.gradient-btn {
+/*.gradient-btn {
     border-radius: 25px;
     background: -webkit-gradient(linear, right top, left top, from(#45E6EF), to(#088FD9));
     background: linear-gradient(270deg, #45E6EF 0%, #088FD9 100%);
@@ -144,11 +153,12 @@ Initial start page
     color: #088FD9;
     border: 1px solid #088FD9 !important
 
-}
+}*/
 
 .finger-print-img {
     width: 150px;
-    height: 150px
+    height: 150px;
+    cursor: pointer
 
 }
 
@@ -211,8 +221,21 @@ Sidebar
     padding: 20px 30px;
 }
 .card-style{
-    background-color: #fff;
     border-radius: 20px;
     padding: 25px
 }
 
+/*===================
+Home Component
+======================*/
+.objective-icon{
+    margin-right: 12px;
+    font-size: 18px;  
+}
+.objective-font{
+    font-weight: 500;
+    font-size: 15px;
+}
+.objective-sec{
+    display: inline-flex;
+}
