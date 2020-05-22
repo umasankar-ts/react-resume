@@ -29,7 +29,7 @@ class HomeComponent extends Component {
 	            			adasdas
 	        			</div>
 	            	</div>
-	            	<div className="col-xl-4 col-lg-8 col-md-8 home-section-space">
+	            	<div className="col-xl-4 col-lg-8 col-md-9 home-section-space">
 	            		<div className="card-style primary-light-bg">
 			            	<h6 className="fancy-title white-font margin-bt-none">Personal Info</h6>
 			            	<hr className="secondary-dark-bg personal-info-hr"/>
