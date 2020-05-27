@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import SidebarComponent from '../component/SidebarComponent'
 import HomeComponent from '../component/HomeComponent'
+import SkillsComponent from '../component/SkillsComponent'
 class BaseComponent extends Component {
     render() {
         return (
@@ -10,7 +11,8 @@ class BaseComponent extends Component {
                         <SidebarComponent></SidebarComponent>
                     </div>
                     <div className="col-xl-10 col-lg-8 col-md-8 col-sm-7 content-wrapper">
-                        <HomeComponent></HomeComponent>
+                      {/* <HomeComponent></HomeComponent>*/}
+                       <SkillsComponent></SkillsComponent>
                         
                     </div>
                 </div>

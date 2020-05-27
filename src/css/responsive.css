@@ -16,6 +16,12 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+	.highlight-text-center{
+		text-align: center
+	}
+	.skill-card-style{
+		width: 100%
+	}
 
 }
 
@@ -24,6 +30,18 @@
 
 }
 
+/*Ipad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	.skill-card-style{
+		width: 100%
+	}
+	.skills-vector-image{
+		margin-top: 40vh
+	}
+
+}
 /*For ipad pro*/
 @media only screen
 and (min-device-width: 1024px)

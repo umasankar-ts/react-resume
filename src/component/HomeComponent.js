@@ -29,13 +29,13 @@ class HomeComponent extends Component {
 	            		<div className="highlight-view highlight-card-top-border">
 	            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 	            				<div className="row">
-	            					<div className="col-md-1" align="center">
+	            					<div className="col-xl-1 col-lg-1 col-md-2" align="center">
 										<div class="highlight-icon green-gradient">
                                 			<i class="lni-cog"></i>
                             			</div>
 	            					</div>
-	            					<div className="col-md-11">
-	            						<p>Known for writing efficient, maintainable and reusable code</p>
+	            					<div className="col-xl-11 col-lg-11 col-md-10">
+	            						<p className="highlight-text-center">Known for writing efficient, maintainable and reusable code</p>
 	            					</div>
 	            				</div>
 	            			</div>
@@ -44,13 +44,13 @@ class HomeComponent extends Component {
 	            		<div className="highlight-view highlight-topview highlight-view-left highlight-view-right">
 	            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 	            				<div className="row">
-	            					<div className="col-md-1" align="center">
+	            					<div className="col-xl-1 col-lg-1 col-md-2" align="center">
 		            					<div class="highlight-icon orange-gradient">
 	                                		<i class="lni-layout"></i>
 	                            		</div>
 	            					</div>
-	            					<div className="col-md-11">
-	            						<p>Proficient in design, data structures, problem-solving, and debugging</p>
+	            					<div className="col-xl-11 col-lg-11 col-md-10">
+	            						<p className="highlight-text-center">Proficient in design, data structures, problem-solving, and debugging</p>
 	            					</div>
 	            				</div>
 	            			</div>
@@ -59,13 +59,13 @@ class HomeComponent extends Component {
 	        			<div className="highlight-view highlight-topview highlight-view-left highlight-view-right">
 	            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 	            				<div className="row">
-	            					<div className="col-md-1" align="center">
+	            					<div className="col-xl-1 col-lg-1 col-md-2" align="center">
 		            					<div class="highlight-icon pale-green-gradient">
 			                                <i class="lni-grid"></i>
 			                            </div>
 	            					</div>
-	            					<div className="col-md-11">
-	            						<p>Expert in the interaction between various devices and versions of Android</p>
+	            					<div className="col-xl-11 col-lg-11 col-md-10">
+	            						<p className="highlight-text-center">Expert in the interaction between various devices and versions of Android</p>
 	            					</div>
 	            				</div>			            			
 	            			</div>
@@ -74,13 +74,13 @@ class HomeComponent extends Component {
 	        			<div className="highlight-view highlight-topview highlight-view-left highlight-view-right">
 	            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 	            				<div className="row">
-	            					<div className="col-md-1" align="center">
+	            					<div className="col-xl-1 col-lg-1 col-md-2" align="center">
             							<div class="highlight-icon pink-gradient">
                                 			<i class="lni-mobile"></i>
                             			</div>
 	            					</div>
-	            					<div className="col-md-11">
-	            						<p>Ability to design for scale and Performance</p>
+	            					<div className="col-xl-11 col-lg-11 col-md-10">
+	            						<p className="highlight-text-center">Ability to design for scale and Performance</p>
 	            					</div>
     							</div>
 	            			</div>
@@ -89,26 +89,26 @@ class HomeComponent extends Component {
 	        			<div className="highlight-view highlight-topview highlight-view-left highlight-view-right highlight-card-bottom-border">
 	            			<div className="highlight-content">
 	            				<div className="row">
-	            					<div className="col-md-1" align="center">
+	            					<div className="col-xl-1 col-lg-1 col-md-2" align="center">
             							<div class="highlight-icon blue-gradient">
                                 			<i class="lni-android"></i>
                         				</div>
 	            					</div>
-	            					<div className="col-md-11">
-	            						<p>Created 3+ fully functional applications for Android devices</p>
+	            					<div className="col-xl-11 col-lg-11 col-md-10">
+	            						<p className="highlight-text-center">Created 3+ fully functional applications for Android devices</p>
 	            					</div>
     							</div>
 	            			</div>
 	        			</div>
 	            	</div>
-	            	<div className="col-xl-4 col-lg-8 col-md-9 home-section-space">
+	            	<div className="col-xl-4 col-lg-8 col-md-12 home-section-space">
 	            		<div className="card-style primary-light-bg">
 			            	<h6 className="fancy-title white-font margin-bt-none">Personal Info</h6>
 			            	<hr className="secondary-dark-bg personal-info-hr"/>
 			            	<div className="personal-info-sec">
 				            	<div className="row">
 				            		<div className="col-md-6">
-				            			<span>Name</span>
+				            			<span className="dark-bg-font">Name</span>
 				            		</div>
 				            		<div className="col-md-6">
 				            			<p className="white-font">T.S. Umasankar</p>
@@ -116,7 +116,7 @@ class HomeComponent extends Component {
 				            	</div>
 				            	<div className="row">
 				            		<div className="col-md-6">
-				            			<span>Father Name</span>
+				            			<span className="dark-bg-font">Father Name</span>
 				            		</div>
 				            		<div className="col-md-6">
 				            			<p className="white-font">T.R. Surendran</p>
@@ -124,7 +124,7 @@ class HomeComponent extends Component {
 				            	</div>
 				            	<div className="row">
 				            		<div className="col-md-6">
-				            			<span>Date of Birth</span>
+				            			<span className="dark-bg-font">Date of Birth</span>
 				            		</div>
 				            		<div className="col-md-6">
 				            			<p className="white-font">04/June/1992</p>
@@ -132,7 +132,7 @@ class HomeComponent extends Component {
 				            	</div>
 				            	<div className="row">
 				            		<div className="col-md-6">
-				            			<span>Marital Status</span>
+				            			<span className="dark-bg-font">Marital Status</span>
 				            		</div>
 				            		<div className="col-md-6">
 				            			<p className="white-font">Married</p>
@@ -140,7 +140,7 @@ class HomeComponent extends Component {
 				            	</div>
 				            	<div className="row">
 				            		<div className="col-md-6">
-				            			<span>Gender</span>
+				            			<span className="dark-bg-font">Gender</span>
 				            		</div>
 				            		<div className="col-md-6">
 				            			<p className="white-font">Male</p>
@@ -148,7 +148,7 @@ class HomeComponent extends Component {
 				            	</div>
 				            	<div className="row">
 				            		<div className="col-md-6">
-				            			<span>Mobile Number</span>
+				            			<span className="dark-bg-font">Mobile Number</span>
 				            		</div>
 				            		<div className="col-md-6">
 				            			<p className="white-font">8807527642</p>
@@ -156,7 +156,7 @@ class HomeComponent extends Component {
 				            	</div>
 				            	<div className="row">
 				            		<div className="col-md-6">
-				            			<span>Address</span>
+				            			<span className="dark-bg-font">Address</span>
 				            		</div>
 				            		<div className="col-md-6">
 				            			<p className="white-font">99, Valluvar Colony, P&T Nagar road, Madurai - 625014</p>
