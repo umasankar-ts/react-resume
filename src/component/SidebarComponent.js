@@ -14,10 +14,10 @@ class SidebarComponent extends Component {
                 </div>
                 <ul className="sidebar-nav-menu">
                     <li><Link to="/home"><i className="lni-home sidebar-nav-menu-icon secondary-dark-font"></i>Home</Link></li>
-                    <li><a href="#"> <i className="lni-layers sidebar-nav-menu-icon secondary-dark-font"></i>Experience</a></li>
-                    <li><a href="#"> <i className="lni-book sidebar-nav-menu-icon secondary-dark-font"></i>Education</a></li>
+                    <li><Link to="/experience"><i className="lni-layers sidebar-nav-menu-icon secondary-dark-font"></i>Experience</Link></li>
+                    <li><Link to="/education"><i className="lni-book sidebar-nav-menu-icon secondary-dark-font"></i>Education</Link></li>
                     <li><Link to="/skills"><i className="lni-medall-alt sidebar-nav-menu-icon secondary-dark-font"></i>Technical Skills</Link></li>
-                    <li><a href="#"> <i className="lni-graduation sidebar-nav-menu-icon secondary-dark-font"></i>Core Qualification</a></li>
+                    <li><Link to="/qualification"><i className="lni-graduation sidebar-nav-menu-icon secondary-dark-font"></i>Core Qualification</Link></li>
                 </ul>
             </div>
         )

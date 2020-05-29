@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import SidebarComponent from '../component/SidebarComponent';
+import SidebarComponent from './SidebarComponent';
 class HomeComponent extends Component {
     render() {
         return (

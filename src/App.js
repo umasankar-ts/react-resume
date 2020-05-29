@@ -2,9 +2,11 @@ import React, {Component} from 'react';
 import './App.css';
 import './css/responsive.css';
 import InitialComponent from './component/InitialComponent';
-import BaseComponent from './component/BaseComponent';
 import HomeComponent from './component/HomeComponent';
-import SkillsComponent from './component/SkillsComponent'
+import SkillsComponent from './component/SkillsComponent';
+import QualificationComponent from './component/QualificationComponent';
+import ExperienceComponent from './component/ExperienceComponent';
+import EducationComponent from './component/EducationComponent';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends Component {
@@ -14,7 +16,11 @@ class App extends Component {
                 <Switch>
                     <Route path="/" exact component={InitialComponent}/>  
                     <Route path="/home" component={HomeComponent}/>
-                    <Route path="/skills" component={SkillsComponent}/>                   
+                    <Route path="/experience" component={ExperienceComponent}/>
+                    <Route path="/education" component={EducationComponent}/> 
+                    <Route path="/skills" component={SkillsComponent}/> 
+                    <Route path="/qualification" component={QualificationComponent}/>  
+
                 </Switch>
             </Router>
         )

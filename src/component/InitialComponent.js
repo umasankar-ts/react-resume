@@ -9,7 +9,7 @@ class InitialComponent extends	Component{
 		            <div className="col-md-12">
 		                <div className="fingerprint-section">
 		                	<Link to="/home"> 
-		                    	<img src="../images/fingerprint.png" onClick={this.clickHandler} className="img-fluid finger-print-img"/> 
+		                    	<img src="../images/fingerprint.png" className="img-fluid finger-print-img"/> 
 	                    	</Link>                               
 		                </div>
 		            </div>

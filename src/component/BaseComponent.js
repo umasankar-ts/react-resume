@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import SidebarComponent from '../component/SidebarComponent'
-import HomeComponent from '../component/HomeComponent'
-import SkillsComponent from '../component/SkillsComponent'
+import SidebarComponent from './SidebarComponent'
+import HomeComponent from './HomeComponent'
+import SkillsComponent from './SkillsComponent'
 
 class BaseComponent extends Component {
     render() {
@@ -12,8 +12,8 @@ class BaseComponent extends Component {
                         <SidebarComponent></SidebarComponent>
                     </div>
                     <div className="col-xl-10 col-lg-8 col-md-8 col-sm-7 content-wrapper">
-                          <HomeComponent></HomeComponent>
-                          <SkillsComponent></SkillsComponent>                    
+                          {/*<HomeComponent></HomeComponent>
+                          <SkillsComponent></SkillsComponent> */}                   
                     </div>
                 </div>
             </div>
