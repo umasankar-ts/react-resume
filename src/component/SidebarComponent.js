@@ -1,4 +1,5 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class SidebarComponent extends Component {
     render() {
@@ -12,10 +13,10 @@ class SidebarComponent extends Component {
                     <p className="white-font">umasankar.tsj@gmail.com</p>
                 </div>
                 <ul className="sidebar-nav-menu">
-                    <li><a href="#"> <i className="lni-home sidebar-nav-menu-icon secondary-dark-font"></i>Home</a></li>
+                    <li><Link to="/home"><i className="lni-home sidebar-nav-menu-icon secondary-dark-font"></i>Home</Link></li>
                     <li><a href="#"> <i className="lni-layers sidebar-nav-menu-icon secondary-dark-font"></i>Experience</a></li>
                     <li><a href="#"> <i className="lni-book sidebar-nav-menu-icon secondary-dark-font"></i>Education</a></li>
-                    <li><a href="#"> <i className="lni-medall-alt sidebar-nav-menu-icon secondary-dark-font"></i>Technical Skills</a></li>
+                    <li><Link to="/skills"><i className="lni-medall-alt sidebar-nav-menu-icon secondary-dark-font"></i>Technical Skills</Link></li>
                     <li><a href="#"> <i className="lni-graduation sidebar-nav-menu-icon secondary-dark-font"></i>Core Qualification</a></li>
                 </ul>
             </div>

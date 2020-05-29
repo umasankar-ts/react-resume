@@ -1,10 +1,25 @@
 import React, {Component} from 'react';
 import './App.css';
 import './css/responsive.css';
-import BaseComponent from './component/BaseComponent'
+import InitialComponent from './component/InitialComponent';
+import BaseComponent from './component/BaseComponent';
+import HomeComponent from './component/HomeComponent';
+import SkillsComponent from './component/SkillsComponent'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends Component {
-    constructor(props) {
+    render(){
+        return (
+            <Router>
+                <Switch>
+                    <Route path="/" exact component={InitialComponent}/>  
+                    <Route path="/home" component={HomeComponent}/>
+                    <Route path="/skills" component={SkillsComponent}/>                   
+                </Switch>
+            </Router>
+        )
+    }
+/*    constructor(props) {
         super(props)
         this.state = {
             isClicked: false
@@ -30,7 +45,7 @@ class App extends Component {
                     </div>
                 </div>
         )
-    }
+    }*/
 }
 
 export default App;
