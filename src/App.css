@@ -238,7 +238,7 @@ Sidebar
       Content
 ======================*/
 .content-wrapper{
-    padding: 20px 30px;
+    padding: 50px 30px;
 }
 .card-style{
     border-radius: 20px;
@@ -371,7 +371,7 @@ Skill Component
 }*/
 
 .skills-sec-space{
-    padding: 100px 0px;
+    padding: 80px 0px;
 }
 .kotlin-card{
     height: 220px
@@ -459,14 +459,14 @@ Skill Component
     margin: 30px 0px
 }
 .qualify-sec-space{
-    padding: 70px 0px
+    padding: 50px 0px
 }
 
 /*===========================
     Experience Component
 =============================*/
 .exp-sec-space{
-    padding: 50px 0px
+    padding: 30px 0px
 }
 .exp-card{
     border-radius:7px;
@@ -477,4 +477,16 @@ Skill Component
 }
 .company-img2{
     padding: 40px 0px
+}
+
+/*===========================
+    Education Component
+=============================*/
+.edu-sec-space{
+    padding-top: 40px 
+}
+.edu-card{
+    border-radius: 10px;
+    padding: 20px;
+    margin:30px 0px
 }
