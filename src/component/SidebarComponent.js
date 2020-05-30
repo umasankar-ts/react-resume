@@ -9,7 +9,7 @@ class SidebarComponent extends Component {
                     <div className="profile-pic-border">
                     <img src="/images/profile-pic.png" className="img-fluid profile-image"/>
                     </div>
-                    <h5 className="white-font margin-t-20">T.S. UMASANKAR</h5>
+                    <h5 className="white-font margin-t-20">T.S Umasankar</h5>
                     <p className="white-font">umasankar.tsj@gmail.com</p>
                 </div>
                 <ul className="sidebar-nav-menu">
@@ -18,6 +18,7 @@ class SidebarComponent extends Component {
                     <li><Link to="/education"><i className="lni-book sidebar-nav-menu-icon secondary-dark-font"></i>Education</Link></li>
                     <li><Link to="/skills"><i className="lni-medall-alt sidebar-nav-menu-icon secondary-dark-font"></i>Technical Skills</Link></li>
                     <li><Link to="/qualification"><i className="lni-graduation sidebar-nav-menu-icon secondary-dark-font"></i>Core Qualification</Link></li>
+                    <li><Link to="/uis"><i className="lni lni-brush sidebar-nav-menu-icon secondary-dark-font"></i>UIs</Link></li>
                 </ul>
             </div>
         )

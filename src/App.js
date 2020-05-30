@@ -20,6 +20,7 @@ class App extends Component {
                     <Route path="/education" component={EducationComponent}/> 
                     <Route path="/skills" component={SkillsComponent}/> 
                     <Route path="/qualification" component={QualificationComponent}/>  
+                    <Route path="/uis" component={QualificationComponent}/>  
 
                 </Switch>
             </Router>
