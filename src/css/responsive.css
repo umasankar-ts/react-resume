@@ -42,5 +42,11 @@ and (max-device-width : 1024px)  {
 and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (-webkit-min-device-pixel-ratio: 2){
+	.company-img{
+		padding: 125px 0px
+	}
+ 	.company-img2{
+ 		padding: 145px 0px
+	 }
 
 }

@@ -461,3 +461,20 @@ Skill Component
 .qualify-sec-space{
     padding: 70px 0px
 }
+
+/*===========================
+    Experience Component
+=============================*/
+.exp-sec-space{
+    padding: 50px 0px
+}
+.exp-card{
+    border-radius:7px;
+    padding: 25px;
+}
+.company-img{
+    padding: 20px 0px
+}
+.company-img2{
+    padding: 40px 0px
+}
