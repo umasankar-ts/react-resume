@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 class InitialComponent extends	Component{
 	render(){
@@ -8,9 +8,9 @@ class InitialComponent extends	Component{
 		        <div className="row" align="center">
 		            <div className="col-md-12">
 		                <div className="fingerprint-section">
-		                	<Link to="/home"> 
+		                	<NavLink to="/home"> 
 		                    	<img src="../images/fingerprint.png" className="img-fluid finger-print-img"/> 
-	                    	</Link>                               
+	                    	</NavLink>                               
 		                </div>
 		            </div>
 		        </div>

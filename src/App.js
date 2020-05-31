@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import './css/responsive.css';
+import './css/animate.css'
 import InitialComponent from './component/InitialComponent';
 import HomeComponent from './component/HomeComponent';
 import SkillsComponent from './component/SkillsComponent';

@@ -51,6 +51,7 @@ body {
     font-family: 'Poppins', sans-serif;
     /*color: #abacae*/
     color: #303952;
+    background-color: #e1eceb
 
 }
 
@@ -192,8 +193,13 @@ Sidebar
     /*height: 100vh;*/
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding-left: 0;
-    padding-right: 0
+    /*padding-left: 0;
+    padding-right: 0;*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px
 }
 .sidebar-nav-menu{
     list-style-type: none;
@@ -207,7 +213,7 @@ Sidebar
     overflow: hidden;
     white-space: nowrap;
     border-radius: 25px;
-    color: #fff
+    color: #fff;
 }
 .sidebar-nav-menu>li{
     margin-left: 10px;
@@ -232,13 +238,47 @@ Sidebar
     background: linear-gradient(to right, #425c5a,#c99c33);
 
 }
+.is-active{
+    background-color: #fff;
+    color: #425c5a !important;
+}
+.scrollbar {
+    overflow-y: scroll;
+
+}
+.scrollbar::-webkit-scrollbar {
+    background-color:transparent;
+    width:5px;
+    border-radius:25px;
+}
+
+/* background of the scrollbar except button or resizer */
+.scrollbar::-webkit-scrollbar-track {
+    background-color:transparent
+}
+.scrollbar::-webkit-scrollbar-track:hover {
+    background-color:transparent;
+}
+
+/* scrollbar itself */
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color:transparent;
+    
+}
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color:transparent;
+}
+
+/* set button(top and bottom of the scrollbar) */
+.scrollbar::-webkit-scrollbar-button {display:none}
 /*=======================*/
 
 /*======================
       Content
 ======================*/
 .content-wrapper{
-    padding: 50px 30px;
+   padding: 50px 20px;
+   margin-left: 250px;
 }
 .card-style{
     border-radius: 20px;

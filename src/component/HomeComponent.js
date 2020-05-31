@@ -3,14 +3,14 @@ import SidebarComponent from './SidebarComponent';
 class HomeComponent extends Component {
     render() {
         return (
-    	 	<div className="container-fluid content-light-bg">
-                <div className="row">
-                    <div className="col-xl-2 col-lg-4 col-md-4 col-sm-5 sidebar primary-light-bg">
-                        <SidebarComponent></SidebarComponent>
-                    </div>
-                    <div className="col-xl-10 col-lg-8 col-md-8 col-sm-7 content-wrapper">
-		        		<div className="row">
-			        		<div className="col-md-12">
+        	<div>
+	        	<div className="sidebar primary-light-bg scrollbar">
+	    	 		<SidebarComponent></SidebarComponent>    	 		
+	    	 	</div>
+	    	 	<div className="content-wrapper">
+	    	 		<div className="container-fluid">
+    	 			 	<div className="row">
+    	 			 		<div className="col-md-12 animated fadeInDown">
 					            <div className="card-style white-bg">
 					            	<h6 className="fancy-title primary-light-font">Objective</h6>
 					                <div className="display-inline">
@@ -27,9 +27,9 @@ class HomeComponent extends Component {
 					            	</div>
 					            </div>
 				            </div>
-			            </div>
-			            <div className="row">
-			            	<div className="col-xl-8 col-lg-12 col-md-12 home-section-space">
+	    	 			</div>
+	    	 			<div className="row">
+			            	<div className="col-xl-8 col-lg-12 col-md-12 home-section-space animated fadeInLeft">
 			            		<h6 className="fancy-title primary-light-font">Highlights</h6>
 			            		<div className="highlight-view highlight-card-top-border">
 			            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
@@ -106,7 +106,7 @@ class HomeComponent extends Component {
 			            			</div>
 			        			</div>
 			            	</div>
-			            	<div className="col-xl-4 col-lg-8 col-md-12 home-section-space">
+			            	<div className="col-xl-4 col-lg-8 col-md-12 home-section-space animated fadeInRight">
 			            		<div className="card-style primary-light-bg">
 					            	<h6 className="fancy-title white-font margin-bt-none">Personal Info</h6>
 					            	<hr className="secondary-dark-bg personal-info-hr"/>
@@ -171,9 +171,10 @@ class HomeComponent extends Component {
 			            		</div>
 			            	</div>
 		            	</div>
-            		</div>
-            	</div>
-        	</div>
+	    	 		</div>
+		 		</div>
+	 		</div>
+    	 	
         )
     }
 }
