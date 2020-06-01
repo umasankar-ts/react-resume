@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SidebarComponent from './SidebarComponent';
+import MessageComponent from './MessageComponent';
 
 class ExperienceComponent extends Component{
 	render(){
@@ -7,6 +8,9 @@ class ExperienceComponent extends Component{
                 <div>
                     <div className="sidebar primary-light-bg scrollbar">
                         <SidebarComponent></SidebarComponent>               
+                    </div>
+                    <div>
+                        <MessageComponent></MessageComponent>
                     </div>
                     <div className="content-wrapper">
                         <div className="container-fluid">

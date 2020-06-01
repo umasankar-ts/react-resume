@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 import SidebarComponent from './SidebarComponent';
+import MessageComponent from './MessageComponent';
 class HomeComponent extends Component {
     render() {
         return (
         	<div>
 	        	<div className="sidebar primary-light-bg scrollbar">
 	    	 		<SidebarComponent></SidebarComponent>    	 		
+	    	 	</div>
+	    	 	<div>
+	    	 		<MessageComponent></MessageComponent>
 	    	 	</div>
 	    	 	<div className="content-wrapper">
 	    	 		<div className="container-fluid">
@@ -156,7 +160,7 @@ class HomeComponent extends Component {
 						            			<span className="dark-bg-font">Mobile Number</span>
 						            		</div>
 						            		<div className="col-md-6">
-						            			<p className="white-font">8807527642</p>
+						            			<p><a className="white-font link-style" href="tel:8807527642">8807527642</a></p>
 					            			</div>
 						            	</div>
 						            	<div className="row">

@@ -23,11 +23,10 @@
 		width: 100%
 	}
 	.sidebar{
-		width: 100%;
-		position: inherit;
-	}
-	.content-wrapper{
-		margin-left: auto;
+		width: 220px;
+	}	
+	.content-wrapper {
+    	margin-left: 220px;
 	}
 
 }
@@ -54,14 +53,19 @@ and (-webkit-min-device-pixel-ratio: 2){
 	}
  	.company-img2{
  		padding: 145px 0px
-	 }
+ 	}
 
 }
 
-
-/*@media (max-width: 767px) and (orientation:portrait) {
-   .content-wrapper{
+/*Mobileview Portrait mode*/
+@media (max-width: 767px) and (orientation:portrait) {
+   .sidebar, .content-wrapper{
    		display:none;
    }
+   .message{
+   		display: block;
+   }
+   body{
+   	background:#425c5a;
+   }
 }
-*/

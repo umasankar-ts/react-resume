@@ -104,6 +104,12 @@ p {
 .margin-rt-none{
     margin-right: 0 !important
 }
+.link-style{
+    font-size: 15px !important;    
+}
+.link-style:hover{
+    color: #c99c33
+}
 /*============
 Colors
 ===========*/
@@ -190,16 +196,14 @@ Sidebar
     -webkit-box-shadow: 10px 15px 30px 1px rgba(0, 0, 0, .1);
     -moz-box-shadow: 10px 15px 30px 1px rgba(0, 0, 0, .1);
     -o-box-shadow: 10px 15px 30px 1px rgba(0, 0, 0, .1);
-    /*height: 100vh;*/
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    /*padding-left: 0;
-    padding-right: 0;*/
     position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
-    width: 250px
+    width: 250px;
+    overflow-x: hidden;
 }
 .sidebar-nav-menu{
     list-style-type: none;
@@ -392,7 +396,6 @@ Home Component
 }
 .highlight-content p{
     margin-top: 11px;
-    /*color: #010101*/
 }
 .highlight-card-top-border{
     border-top-left-radius: 25px;
@@ -406,10 +409,6 @@ Home Component
 /*===================
 Skill Component
 ======================*/
-/*.skills-title{
-    padding: 40px 0px 0px 70px;
-}*/
-
 .skills-sec-space{
     padding: 80px 0px;
 }
@@ -530,3 +529,18 @@ Skill Component
     padding: 20px;
     margin:30px 0px
 }
+
+/*===========================
+    Message Component
+=============================*/
+.message{
+    right: 0;
+    position: absolute; 
+    top: 50vh;
+    bottom: 0;    
+    margin: auto;
+    z-index: 9999;
+    display: none;
+    padding: 10px
+}
+

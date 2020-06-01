@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
 import SidebarComponent from './SidebarComponent';
+import MessageComponent from './MessageComponent';
 class SkillsComponent extends Component{
 	render(){
 		return(
 			<div>
                 <div className="sidebar primary-light-bg scrollbar">
                     <SidebarComponent></SidebarComponent>               
+                </div>
+                <div>
+                    <MessageComponent></MessageComponent>
                 </div>
                 <div className="content-wrapper">
                     <div className="container-fluid">
