@@ -512,12 +512,23 @@ Skill Component
     padding: 25px;
 }
 .company-img{
-    padding: 20px 0px
+    padding: 18px 0px
 }
 .company-img2{
     padding: 40px 0px
 }
-
+.nav-tabs .nav-link.active{
+    background-color: #425c5a;
+    border-color: #3d5654 #3d5654 transparent;
+    color: #fff
+}
+.nav-tabs a{
+    color: #425c5a;
+    font-size: 14px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #dcddde
+}
 /*===========================
     Education Component
 =============================*/

@@ -8,6 +8,7 @@ import SkillsComponent from './component/SkillsComponent';
 import QualificationComponent from './component/QualificationComponent';
 import ExperienceComponent from './component/ExperienceComponent';
 import EducationComponent from './component/EducationComponent';
+import UiComponent from './component/UiComponent';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
                     <Route path="/education" component={EducationComponent}/> 
                     <Route path="/skills" component={SkillsComponent}/> 
                     <Route path="/qualification" component={QualificationComponent}/>  
-                    <Route path="/uis" component={QualificationComponent}/>  
+                    <Route path="/uis" component={UiComponent}/>  
 
                 </Switch>
             </Router>
