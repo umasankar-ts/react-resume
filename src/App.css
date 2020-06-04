@@ -149,12 +149,9 @@ Initial start page
 ==================*/
 
 .fingerprint-section {
-    position: absolute;
-    top: 50vh;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto
+   top: 40%;
+   position: absolute;
+
 }
 
 /*.proceed-btn-section {
