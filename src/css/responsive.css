@@ -28,6 +28,20 @@
 	.content-wrapper {
     	margin-left: 220px;
 	}
+	.profile-pic-section{
+	    padding: 20px 10px 3px 10px
+	}
+	.profile-pic-border, .profile-image{
+		width: 70px;
+		height: 70px
+	}
+	.user-name,.email-txt{
+		font-size: 14px !important
+	}
+	.sidebar-nav-menu>li>a {
+		padding: 8px;
+		font-size: 12px
+	}
 
 }
 

@@ -9,8 +9,8 @@ class SidebarComponent extends Component {
                     <div className="profile-pic-border">
                         <img src="/images/profile-pic.png" className="img-fluid profile-image"/>
                     </div>
-                    <h5 className="white-font margin-t-20">T.S Umasankar</h5>
-                    <p><a className="white-font link-style" href = "mailto:umasankar.tsj@gmail.com">umasankar.tsj@gmail.com</a></p>
+                    <h5 className="white-font mt-2 user-name">T.S Umasankar</h5>
+                    <p><a className="white-font link-style email-txt" href = "mailto:umasankar.tsj@gmail.com">umasankar.tsj@gmail.com</a></p>
                 </div>
                 <ul className="sidebar-nav-menu">
                     <li><NavLink activeClassName='is-active' to="/home"><i className="lni-home sidebar-nav-menu-icon secondary-dark-font"></i>Home</NavLink></li>
