@@ -23,10 +23,11 @@
 		width: 100%
 	}
 	.sidebar{
-		width: 220px;
+		width: 220px
 	}	
 	.content-wrapper {
     	margin-left: 220px;
+    	padding-top: 20px    	
 	}
 	.profile-pic-section{
 	    padding: 20px 10px 3px 10px
@@ -36,11 +37,20 @@
 		height: 70px
 	}
 	.user-name,.email-txt{
-		font-size: 14px !important
+		font-size: 15px !important
 	}
 	.sidebar-nav-menu>li>a {
 		padding: 8px;
 		font-size: 12px
+	}
+	.profile-pic-border{
+		display: none
+	}
+	.exp-sec-space, .skills-sec-space, .qualify-sec-space{
+		padding: 0
+	}
+	.edu-sec-space{
+		padding-top: 0
 	}
 
 }
@@ -74,12 +84,12 @@ and (-webkit-min-device-pixel-ratio: 2){
 /*Mobileview Portrait mode*/
 @media (max-width: 767px) and (orientation:portrait) {
    .sidebar, .content-wrapper{
-   		display:none;
+   		display:none
    }
    .message{
-   		display: block;
+   		display: block
    }
    body{
-   	background:#425c5a;
+   	background:#425c5a
    }
 }

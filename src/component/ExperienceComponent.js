@@ -72,6 +72,16 @@ class ExperienceComponent extends Component{
                                         </div>
                                         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                             <div className="row exp-sec-space">
+                                                <div className="col-xl-3 col-lg-5 col-md-5 margin-t-20 animated fadeInUp">
+                                                    <div className="exp-card white-bg">
+                                                        <h6 className="text-center fancy-title primary-light-font">Jovee Infotech</h6>
+                                                        <p className="text-center secondary-dark-font">Software Engineer / Android Mobile Application Developer ( Jan 2016 - Dec 2018 )</p>
+                                                        <div className="company-img2">
+                                                            <img src="/images/company2.png" className="img-fluid"/>
+                                                        </div>
+                                                        <p className="text-center margin-t-20">KK nagar, Madurai</p>
+                                                    </div>
+                                                </div>  
                                                 <div className="col-xl-9 col-lg-7 col-md-7 margin-t-20 animated fadeInLeft">
                                                     <h6 className="fancy-title primary-light-font">Role</h6>
                                                     <div className="exp-card white-bg">
@@ -103,17 +113,7 @@ class ExperienceComponent extends Component{
                                                             <p>Track CPU, Memory and Network performances consumed by App</p>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div className="col-xl-3 col-lg-5 col-md-5 margin-t-20 animated fadeInUp">
-                                                    <div className="exp-card white-bg">
-                                                        <h6 className="text-center fancy-title primary-light-font">Jovee Infotech</h6>
-                                                        <p className="text-center secondary-dark-font">Software Engineer / Android Mobile Application Developer ( Jan 2016 - Dec 2018 )</p>
-                                                        <div className="company-img2">
-                                                            <img src="/images/company2.png" className="img-fluid"/>
-                                                        </div>
-                                                        <p className="text-center margin-t-20">KK nagar, Madurai</p>
-                                                    </div>
-                                                </div>                          
+                                                </div>                                                                        
                                             </div>
                                         </div>                                        
                                     </div>

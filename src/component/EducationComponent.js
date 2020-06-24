@@ -34,7 +34,7 @@ class EducationComponent extends Component{
                                             <div className="col-md-10">
                                                 <h6><b>B.Sc</b> (Computer Science)</h6>
                                                 <p className="secondary-dark-font">Sourashtra College, Madurai</p>
-                                                <p>July 2014 - April 2016</p>
+                                                <p>July 2009 - April 2012</p>
                                             </div>
                                             <div className="col-md-2 vertical-center">
                                             <h5>72%</h5>
