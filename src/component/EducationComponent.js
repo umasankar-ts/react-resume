@@ -17,7 +17,7 @@ class EducationComponent extends Component{
                             <h6 className="fancy-title primary-light-font">Education</h6>
                             <div className="row exp-sec-space">
                                 <div className="col-xl-8 col-md-12 edu-sec-space">
-                                    <div className="edu-card white-bg animated fadeInLeft">
+                                    <div className="edu-card white-bg animated fadeInLeft card-shadow">
                                         <div className="row">
                                             <div className="col-md-10">
                                                 <h6><b>M.Sc</b> (Computer Science & Information Technology)</h6>
@@ -29,7 +29,7 @@ class EducationComponent extends Component{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="edu-card white-bg animated fadeInRight">
+                                    <div className="edu-card white-bg animated fadeInRight card-shadow">
                                         <div className="row">
                                             <div className="col-md-10">
                                                 <h6><b>B.Sc</b> (Computer Science)</h6>
@@ -43,7 +43,7 @@ class EducationComponent extends Component{
                                     </div>
                                 </div>
                                 <div className="col-xl-4 col-md-12 vertical-center animated fadeInDownBig" align="center">
-                                    <img src="/images/graduate.png" className="img-fluid"/>
+                                    <img src="/images/graduate.png" className="img-fluid edu-image" alt="Graduation image"/>
                                 </div>
                             </div>
                         </div>

@@ -13,22 +13,22 @@ class UiComponent extends Component{
             speed: 700,
             slidesToShow: 4,
             slidesToScroll: 1,
-             responsive: [
+/*             responsive: [
                 {
-                breakpoint: 767,
+                breakpoint: 850,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 4,
                         slidesToScroll: 1                        
                     }
                 },
                 {
-                    breakpoint: 1024,
+                    breakpoint: 1023,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 3,
                         slidesToScroll: 1                        
                     }
                 }
-            ]
+            ]*/
         };
 		return(
 		 	<div>
@@ -44,15 +44,15 @@ class UiComponent extends Component{
                     	<div className="row">
                             <div className="col-md-12">
                                 <Slider {...settings}>
-                                    <img src="/images/ui1.png" className="img-fluid"/>
-                                    <img src="/images/ui2.png" className="img-fluid"/>
-                                    <img src="/images/ui3.png" className="img-fluid"/>
-                                    <img src="/images/ui4.png" className="img-fluid"/>
-                                    <img src="/images/ui5.png" className="img-fluid"/>
-                                    <img src="/images/ui6.png" className="img-fluid"/>
-                                    <img src="/images/ui7.png" className="img-fluid"/>
-                                    <img src="/images/ui8.png" className="img-fluid"/>
-                                    <img src="/images/ui9.png" className="img-fluid"/>
+                                    <img src="/images/ui1.png" className="img-fluid" alt="App screenshot1"/>
+                                    <img src="/images/ui2.png" className="img-fluid" alt="App screenshot2"/>
+                                    <img src="/images/ui3.png" className="img-fluid" alt="App screenshot3"/>
+                                    <img src="/images/ui4.png" className="img-fluid" alt="App screenshot4"/>
+                                    <img src="/images/ui5.png" className="img-fluid" alt="App screenshot5"/>
+                                    <img src="/images/ui6.png" className="img-fluid" alt="App screenshot6"/>
+                                    <img src="/images/ui7.png" className="img-fluid" alt="App screenshot7"/>
+                                    <img src="/images/ui8.png" className="img-fluid" alt="App screenshot8"/>
+                                    <img src="/images/ui9.png" className="img-fluid" alt="App screenshot9"/>
                                 </Slider>
                             </div>
                         </div>

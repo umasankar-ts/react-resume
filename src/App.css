@@ -45,13 +45,14 @@ html {
 }
 
 body {
-    background: #fff;
+  
     font-size: 15px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     /*color: #abacae*/
     color: #303952;
-    background-color: #e1eceb
+    /*background-color: #e1eceb*/
+    background-color: #f8f9fb
 
 }
 
@@ -136,10 +137,10 @@ Colors
     color: #c99c33
 }
 .white-font{
-    color: #fff;
+    color: #ffffff
 }
 .white-bg{
-    background-color: #fff
+    background-color: #ffffff
 }
 .dark-bg-font{
     color: #abacae
@@ -407,7 +408,7 @@ Home Component
 Skill Component
 ======================*/
 .skills-sec-space{
-    padding: 80px 0px;
+    padding: 50px 0px;
 }
 .kotlin-card{
     height: 220px
@@ -421,7 +422,7 @@ Skill Component
 }
 .skill-percent{
     font-size: 30px;
-    color: rgba(0,0,0,.4);
+    color: rgba(255,255,255,.7);
 }
 .skill-card-width{
     width: 250px;
@@ -477,7 +478,77 @@ Skill Component
 .vertical-center{
      align-self: center;
 }
-
+.skill-cards-style{
+     padding: 15px 20px;
+    border-radius: 15px 55px 15px 15px;
+    width: 200px;
+    height: 250px;   
+     box-shadow: 0 1px 20px 0 rgba(69,90,100,0.4);
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.4);
+    -moz-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.4);
+    -o-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.4)
+}
+.skill-icon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -22px;
+    margin-left: -8px;
+    z-index: 5;
+    filter: drop-shadow(5px 5px 5px rgba(69,90,100,0.5));
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(69,90,100,0.5));
+    -ms-filter: drop-shadow(5px 5px 5px rgba(69,90,100,0.5))
+}
+.skill-content{
+    margin-top: 50px
+}
+.skill-icon-bg{
+    width: 70px;
+    height: 60px;    
+  /*  top: -6px;
+    left: 115px;*/
+    position: absolute;
+    
+    border-radius: 25px 50% 50% 25px;
+    margin-top: -21px;
+    margin-left: -21px
+}
+.pink-icon-bg{
+    background-color: #feb2c7
+}
+.blue-icon-bg{
+    background-color: #c4c9f3
+}
+.yellow-icon-bg{
+    background-color: #fdce9b
+}
+.green-icon-bg{
+    background-color: #5dd2c0
+}
+.orange-icon-bg{
+    background-color:#f8b4a3
+}
+.violet-icon-bg{
+    background-color:#b464a2
+}
+.pink-grad-bg{
+    background: linear-gradient(#fa93b1, #ee6596)
+}
+.blue-grad-bg{
+    background: linear-gradient(#919bff, #6b79ff)
+}
+.yellow-grad-bg{
+    background: linear-gradient(#ffc17a, #ffb55c)
+}
+.green-grad-bg{
+    background: linear-gradient(#4ec9b6, #3ac3ae) 
+}
+.orange-grad-bg{
+    background: linear-gradient(#f99a8c, #f6717d)
+}
+.violet-grad-bg{
+    background: linear-gradient(#ab5498, #8c3f7b)
+}
 /*===========================
     Qualification Component
 =============================*/
@@ -541,11 +612,21 @@ Skill Component
 /*===========================
     Message Component
 =============================*/
-.message{     
-  
+.message{   
     display: none;
     padding: 10px;
     top: 40%;
-   position: absolute;
+    position: absolute;
 }
 
+.card-shadow{
+/*    box-shadow: 0 30px 50px -30px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 30px 50px -30px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 30px 50px -30px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 30px 50px -30px rgba(0,0,0,0.2);*/
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    -moz-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    -o-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08)
+
+}

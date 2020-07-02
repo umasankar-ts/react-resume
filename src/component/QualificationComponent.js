@@ -17,7 +17,7 @@ class QualificationComponent extends Component{
                     	<h6 className="fancy-title primary-light-font">Core Qualification</h6>
                         <div className="row qualify-sec-space">
                             <div className="col-xl-4 col-md-12 col-sm-12 animated fadeInLeft">
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">
                                     	<div className="col-md-10 col-9 vertical-center text-right">
                                             <span>Native Android Development</span>
@@ -27,7 +27,7 @@ class QualificationComponent extends Component{
                                         </div>                                                                              
                                     </div>  
                                 </div>
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">
                         				 <div className="col-md-10 col-9 vertical-center text-right">
                                             <span>User Experience Design</span>
@@ -37,7 +37,7 @@ class QualificationComponent extends Component{
                                         </div>                                                                            
                                     </div>  
                                 </div>
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">                                        
                                         <div className="col-md-10 col-9 vertical-center text-right">
                                             <span>Agile Software Development Methodologies</span>
@@ -47,7 +47,7 @@ class QualificationComponent extends Component{
                                         </div>                                     
                                     </div>  
                                 </div>
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">                                        
                                         <div className="col-md-10 col-9 vertical-center text-right">
                                             <span>Hybrid Android Development (Native Script)</span>
@@ -57,7 +57,7 @@ class QualificationComponent extends Component{
                                         </div>                                      
                                     </div>  
                                 </div>
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">                                       
                                         <div className="col-md-10 col-9 vertical-center text-right">
                                             <span>Android vector based animation</span>
@@ -70,11 +70,11 @@ class QualificationComponent extends Component{
                             </div>
                             <div className="col-xl-4 col-md-12 col-sm-12 animated fadeInDownBig" align="center">
                                 <div className="qualify-image">
-                                    <img src="/images/qualification-mockup.png" className="img-fluid "/>
+                                    <img src="/images/qualification-mockup.png" className="img-fluid " alt="Mobile app screen"/>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-md-12 col-sm-12 animated fadeInRight">
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">
                                         <div className="col-md-2 col-3" align="center" >
                                             <i class="lni-indent-increase secondary-dark-font"></i>
@@ -84,7 +84,7 @@ class QualificationComponent extends Component{
                                         </div>                                      
                                     </div>  
                                 </div>
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">
                                         <div className="col-md-2 col-3" align="center" >
                                             <i class="lni-control-panel secondary-dark-font"></i>
@@ -94,7 +94,7 @@ class QualificationComponent extends Component{
                                         </div>                                      
                                     </div>  
                                 </div>
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">
                                         <div className="col-md-2 col-3" align="center" >
                                             <i class="lni-leaf secondary-dark-font"></i>
@@ -104,7 +104,7 @@ class QualificationComponent extends Component{
                                         </div>                                      
                                     </div>  
                                 </div>
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">
                                         <div className="col-md-2 col-3" align="center" >
                                             <i class="lni-layers secondary-dark-font"></i>
@@ -114,7 +114,7 @@ class QualificationComponent extends Component{
                                         </div>                                      
                                     </div>  
                                 </div>
-                                <div className="qualify-card white-bg"> 
+                                <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">
                                         <div className="col-md-2 col-3" align="center" >
                                             <i class="lni-key secondary-dark-font"></i>
