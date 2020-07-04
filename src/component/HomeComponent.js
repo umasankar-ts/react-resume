@@ -35,7 +35,7 @@ class HomeComponent extends Component {
 	    	 			<div className="row">
 			            	<div className="col-xl-8 col-lg-12 col-md-12 home-section-space animated fadeInLeft">
 			            		<h6 className="fancy-title primary-light-font">Highlights</h6>
-			            		<div className="card-shadow">
+			            		<div className="highlight-card card-shadow">
 				            		<div className="highlight-view highlight-card-top-border">
 				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 				            				<div className="row">
@@ -114,7 +114,7 @@ class HomeComponent extends Component {
 			            	</div>
 			            	<div className="col-xl-4 col-lg-8 col-md-12 home-section-space animated fadeInRight ">
 			            		<div className="card-style primary-light-bg card-shadow">
-					            	<h6 className="fancy-title white-font margin-bt-none">Personal Info</h6>
+					            	<h6 className="fancy-title white-font mb-0">Personal Info</h6>
 					            	<hr className="secondary-dark-bg personal-info-hr"/>
 					            	<div className="personal-info-sec">
 						            	<div className="row">
@@ -163,6 +163,14 @@ class HomeComponent extends Component {
 						            		</div>
 						            		<div className="col-md-6 col-sm-6">
 						            			<p><a className="white-font link-style" href="tel:8807527642">8807527642</a></p>
+					            			</div>
+						            	</div>
+						            	<div className="row">
+						            		<div className="col-md-6 col-sm-6">
+						            			<span className="dark-bg-font">Email</span>
+						            		</div>
+						            		<div className="col-md-6 col-sm-6">
+						            			<p><a className="white-font link-style text-word-br" href="mailto:umasankar.tsj@gmail.com">umasankar.tsj@gmail.com</a></p>
 					            			</div>
 						            	</div>
 						            	<div className="row">

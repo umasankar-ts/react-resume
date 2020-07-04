@@ -35,8 +35,8 @@
 	.profile-pic-section{
 	    padding: 20px 10px 3px 10px
 	}	
-	.user-name,.email-txt{
-		font-size: 15px !important
+	.user-name{
+		font-size: 20px !important
 	}
 	.sidebar-nav-menu>li>a {
 		padding: 8px;
@@ -56,6 +56,9 @@
 	}
 	.skill-cards-style{
 		width: 100%
+	}
+	.designation{
+		font-size: 11px;
 	}
 }
 
