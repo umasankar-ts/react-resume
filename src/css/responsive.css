@@ -18,13 +18,18 @@
 @media (max-width: 767px) {
 	.highlight-text-center{
 		text-align: center
+	}	
+}
+@media (min-width:831px){
+	.skill-sec-mob-view, .qualify-mob-view{
+		display: none;
 	}
-	.skill-card-style{
-		width: 100%
+	.skill-desk-view, .qualify-desk-view{
+		display: block;
 	}
 }
 /*Large mobile device*/
-@media (max-width: 850px) {
+@media (max-width: 830px) {
 	.sidebar{
 		width: 220px
 	}	
@@ -58,7 +63,27 @@
 		width: 100%
 	}
 	.designation{
-		font-size: 11px;
+		font-size: 11px
+	}
+	.skill-sec-mob-view, .qualify-mob-view{
+		display: block
+	}
+	.skill-desk-view,.qualify-desk-view{
+		display: none
+	}
+	.skills-mob-name{
+		font-size: 12px
+	}
+	.skill-mob-card{
+		height: 103px
+	}
+	.qualify-mob-card{
+		width: 100%;
+		padding: 7px;
+		border-left: 2px solid #c99c33
+	}
+	.qualify-mob-card p{
+		font-size: 12px
 	}
 }
 
@@ -72,9 +97,6 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
 	
-	.skills-name{
-		font-size: 18px;
-	}
 }
 /*For ipad pro*/
 @media only screen

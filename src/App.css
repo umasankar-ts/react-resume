@@ -407,13 +407,6 @@ Skill Component
 .skills-sec-space{
     padding: 50px 0px;
 }
-.kotlin-card{
-    height: 220px
-}
-.kotlin-card img{
-    width: 90px;
-    height: 90px
-}
 .skills-sec-space h5{
     padding-top: 10px
 }
@@ -421,57 +414,7 @@ Skill Component
     font-size: 30px;
     color: rgba(255,255,255,.7);
 }
-.skill-card-width{
-    width: 250px;
-}
-.java-card{
-    height: 340px;
-    margin-top: 30px
-}
-.java-card img{
-    width: 150px;
-    height: 150px
-}
-.android-card{
-    height: 350px
-}
-.android-card img{
-    width: 180px;
-    height: 180px
-}
-.db-card{
-    height: 220px;
-    margin-top: 30px
-}
-.db-card img{
-    width: 80px;
-    height: 80px
-}
-.nativescript-card{
-    height: 200px;
-}
-.nativescript-card img{
-    width: 70px;
-    height: 70px
-}
-.vuejs-card{
-    height: 370px;
-    margin-top: 30px
-}
-.skill-img-sec{
-    background-color: #f7f6fe;
-    height: 100vh;
-}
-.skill-card-style{
-    padding: 15px 20px;
-    border-radius: 7px;
-    margin-bottom: 20px;
-    width: 100%
-}
-.skill-card-outer-space{
-    padding-top: 100px;
-    padding-bottom: 100px
-}
+
 .vertical-center{
      align-self: center;
 }
@@ -501,11 +444,8 @@ Skill Component
 }
 .skill-icon-bg{
     width: 70px;
-    height: 60px;    
-  /*  top: -6px;
-    left: 115px;*/
-    position: absolute;
-    
+    height: 60px; 
+    position: absolute;    
     border-radius: 25px 50% 50% 25px;
     margin-top: -21px;
     margin-left: -21px
@@ -546,6 +486,11 @@ Skill Component
 .violet-grad-bg{
     background: linear-gradient(#ab5498, #8c3f7b)
 }
+.skill-mob-card,.skills-mob-name{
+    border-radius: 10px;
+    padding: 7px
+}
+
 /*===========================
     Qualification Component
 =============================*/

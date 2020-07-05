@@ -136,76 +136,118 @@ class SkillsComponent extends Component{
                                 </div>              
                             </div>
                         </div>*/}
-                        <div className="row skills-sec-space animated fadeInUp" align="center">
-                            <div className="col-md-4 col-sm-6 col-12 mt-5">
-                                <div className="skill-cards-style pink-grad-bg">
-                                    <div className="text-left">
-                                        <img src="/images/kotlin.png" className="img-fluid skill-icon " alt="Kotlin"/>
+                        <div className="skill-desk-view">
+                            <div className="row skills-sec-space animated fadeInUp " align="center">
+                                <div className="col-md-4 col-sm-6 col-12 mt-5">
+                                    <div className="skill-cards-style pink-grad-bg">
+                                        <div className="text-left">
+                                            <img src="/images/kotlin.png" className="img-fluid skill-icon " alt="Kotlin"/>
+                                        </div>
+                                        <div className="skill-icon-bg pink-icon-bg text-left" align="left"></div>
+                                        <div className="skill-content">
+                                            <h5 className="text-left white-font">Kotlin</h5>
+                                            <p className="skill-percent text-left">90%</p>
+                                        </div>
                                     </div>
-                                    <div className="skill-icon-bg pink-icon-bg text-left" align="left"></div>
-                                    <div className="skill-content">
-                                        <h5 className="text-left white-font skills-name">Kotlin</h5>
-                                        <p className="skill-percent text-left">90%</p>
+                                </div>
+                                <div className="col-md-4 col-sm-6 col-12 mt-5">
+                                    <div className="skill-cards-style blue-grad-bg">
+                                        <div className="text-left">
+                                            <img src="/images/java.png" className="img-fluid skill-icon" alt="Java"/>
+                                        </div>
+                                        <div className="skill-icon-bg blue-icon-bg text-left" align="left"></div>
+                                        <div className="skill-content">
+                                            <h5 className="text-left white-font">Java</h5>
+                                            <p className="skill-percent text-left">95%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div className="col-md-4 col-sm-6 col-12 mt-5">
+                                    <div className="skill-cards-style yellow-grad-bg">
+                                        <div className="text-left">
+                                           <img src="/images/android.png" className="img-fluid skill-icon" alt="Android"/>
+                                        </div>
+                                        <div className="skill-icon-bg yellow-icon-bg text-left" align="left"></div>
+                                        <div className="skill-content">
+                                            <h5 className="text-left white-font">Android NDK</h5>
+                                            <p className="skill-percent text-left">97%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-6 col-12 mt-5">
+                                    <div className="skill-cards-style green-grad-bg">
+                                        <div className="text-left">
+                                           <img src="/images/database.png" className="img-fluid skill-icon" alt="Couchbase DB"/>
+                                        </div>
+                                        <div className="skill-icon-bg green-icon-bg text-left" align="left"></div>
+                                        <div className="skill-content">
+                                            <h5 className="text-left white-font">Couchbase DB</h5>
+                                            <p className="skill-percent text-left">90%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-6 col-12 mt-5">
+                                    <div className="skill-cards-style orange-grad-bg">
+                                        <div className="text-left">
+                                           <img src="/images/nativescript.png" className="img-fluid skill-icon" alt="Nativescript"/>
+                                        </div>
+                                        <div className="skill-icon-bg orange-icon-bg text-left" align="left"></div>
+                                        <div className="skill-content">
+                                            <h5 className="text-left white-font">NativeScript</h5>
+                                            <p className="skill-percent text-left">85%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-6 col-12 mt-5">
+                                    <div className="skill-cards-style violet-grad-bg">
+                                        <div className="text-left">
+                                           <img src="/images/vuejs.png" className="img-fluid skill-icon" alt="Vuejs"/>
+                                        </div>
+                                        <div className="skill-icon-bg violet-icon-bg text-left" align="left"></div>
+                                        <div className="skill-content">
+                                            <h5 className="text-left white-font">VueJs</h5>
+                                            <p className="skill-percent text-left">70%</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 col-sm-6 col-12 mt-5">
-                                <div className="skill-cards-style blue-grad-bg">
-                                    <div className="text-left">
-                                        <img src="/images/java.png" className="img-fluid skill-icon" alt="Java"/>
-                                    </div>
-                                    <div className="skill-icon-bg blue-icon-bg text-left" align="left"></div>
-                                    <div className="skill-content">
-                                        <h5 className="text-left white-font skills-name">Java</h5>
-                                        <p className="skill-percent text-left">95%</p>
+                        </div>
+                        <div className="skill-sec-mob-view">
+                            <div className="row animated fadeInUp " align="center">
+                                <div className="col-sm-4 col-6 mt-2">
+                                    <div className="skill-mob-card white-bg card-shadow">
+                                        <h6 className="skills-mob-name pink-grad-bg white-font">Kotlin</h6>
+                                        <p className="mb-0">90%</p>
                                     </div>
                                 </div>
-                            </div>
-                             <div className="col-md-4 col-sm-6 col-12 mt-5">
-                                <div className="skill-cards-style yellow-grad-bg">
-                                    <div className="text-left">
-                                       <img src="/images/android.png" className="img-fluid skill-icon" alt="Android"/>
-                                    </div>
-                                    <div className="skill-icon-bg yellow-icon-bg text-left" align="left"></div>
-                                    <div className="skill-content">
-                                        <h5 className="text-left white-font skills-name">Android NDK</h5>
-                                        <p className="skill-percent text-left">97%</p>
+                                <div className="col-sm-4 col-6 mt-2">
+                                    <div className="skill-mob-card white-bg card-shadow">
+                                        <h6 className="skills-mob-name blue-grad-bg white-font">Java</h6>
+                                        <p className="mb-0">95%</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-12 mt-5">
-                                <div className="skill-cards-style green-grad-bg">
-                                    <div className="text-left">
-                                       <img src="/images/database.png" className="img-fluid skill-icon" alt="Couchbase DB"/>
-                                    </div>
-                                    <div className="skill-icon-bg green-icon-bg text-left" align="left"></div>
-                                    <div className="skill-content">
-                                        <h5 className="text-left white-font skills-name">Couchbase DB</h5>
-                                        <p className="skill-percent text-left">90%</p>
+                                <div className="col-sm-4 col-6 mt-2">
+                                    <div className="skill-mob-card white-bg card-shadow">
+                                        <h6 className="skills-mob-name yellow-grad-bg white-font">Android NDK</h6>
+                                        <p className="mb-0">97%</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-12 mt-5">
-                                <div className="skill-cards-style orange-grad-bg">
-                                    <div className="text-left">
-                                       <img src="/images/nativescript.png" className="img-fluid skill-icon" alt="Nativescript"/>
-                                    </div>
-                                    <div className="skill-icon-bg orange-icon-bg text-left" align="left"></div>
-                                    <div className="skill-content">
-                                        <h5 className="text-left white-font skills-name">NativeScript</h5>
-                                        <p className="skill-percent text-left">85%</p>
+                                <div className="col-sm-4 col-6 mt-2">
+                                    <div className="skill-mob-card white-bg card-shadow">
+                                        <p className="skills-mob-name green-grad-bg white-font">Couchbase DB</p>
+                                        <p className="mb-0">90%</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-md-4 col-sm-6 col-12 mt-5">
-                                <div className="skill-cards-style violet-grad-bg">
-                                    <div className="text-left">
-                                       <img src="/images/vuejs.png" className="img-fluid skill-icon" alt="Vuejs"/>
+                                <div className="col-sm-4 col-6 mt-2">
+                                    <div className="skill-mob-card white-bg card-shadow">
+                                        <p className="skills-mob-name orange-grad-bg white-font">NativeScript</p>
+                                        <p className="mb-0">85%</p>
                                     </div>
-                                    <div className="skill-icon-bg violet-icon-bg text-left" align="left"></div>
-                                    <div className="skill-content">
-                                        <h5 className="text-left white-font skills-name">VueJs</h5>
-                                        <p className="skill-percent text-left">70%</p>
+                                </div>
+                                <div className="col-sm-4 col-6 mt-2">
+                                    <div className="skill-mob-card white-bg card-shadow">
+                                        <p className="skills-mob-name violet-grad-bg white-font">VueJs</p>
+                                        <p className="mb-0">70%</p>
                                     </div>
                                 </div>
                             </div>

@@ -15,7 +15,7 @@ class QualificationComponent extends Component{
                 <div className="content-wrapper">
                     <div className="container-fluid">
                     	<h6 className="fancy-title primary-light-font">Core Qualification</h6>
-                        <div className="row qualify-sec-space">
+                        <div className="row qualify-sec-space qualify-desk-view">
                             <div className="col-xl-4 col-md-12 col-sm-12 animated fadeInLeft">
                                 <div className="qualify-card white-bg card-shadow"> 
                                     <div className="row">
@@ -123,6 +123,44 @@ class QualificationComponent extends Component{
                                             <span>Experienced in Google API keys integrations</span>
                                         </div>                                      
                                     </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <div className="qualify-mob-view">
+                            <div className="row qualify-sec-space">
+                                <div className="col-sm-6 col-6">                            
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">Native Android Development</p> 
+                                    </div>
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">User Experience Design</p> 
+                                    </div>
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">Agile Software Development Methodologies</p> 
+                                    </div>
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">Hybrid Android Development (Native Script)</p> 
+                                    </div>
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">Android vector based animation</p> 
+                                    </div>
+                                </div>
+                                <div className="col-sm-6 col-6">                              
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">Websocket Implementation</p> 
+                                    </div>
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">HTTP Error codes based API processing</p> 
+                                    </div>
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">Handle app related API in Single place</p> 
+                                    </div>
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">Experienced with MVVM and MVP Architectures</p> 
+                                    </div>
+                                    <div className="qualify-mob-card white-bg card-shadow mt-2">
+                                        <p className="mb-0">Experienced in Google API keys integrations</p> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
