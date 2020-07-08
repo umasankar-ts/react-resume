@@ -15,7 +15,7 @@ class HomeComponent extends Component {
 	    	 		<div className="container-fluid">
     	 			 	<div className="row">
     	 			 		<div className="col-md-12 animated fadeInDown">
-					            <div className="card-style white-bg card-shadow">
+					            <div className="card-style card-bg card-shadow">
 					            	<h6 className="fancy-title primary-light-font">Objective</h6>
 					                <div className="display-inline">
 					               		<i className="lni-android objective-icon secondary-dark-font"></i>
@@ -35,13 +35,13 @@ class HomeComponent extends Component {
 	    	 			<div className="row">
 			            	<div className="col-xl-8 col-lg-12 col-md-12 home-section-space animated fadeInLeft">
 			            		<h6 className="fancy-title primary-light-font">Highlights</h6>
-			            		<div className="highlight-card card-shadow">
+			            		<div className="highlight-card card-shadow card-bg">
 				            		<div className="highlight-view highlight-card-top-border">
 				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 				            				<div className="row">
 				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-													<div class="highlight-icon green-gradient">
-			                                			<i class="lni-cog"></i>
+													<div className="highlight-icon green-gradient">
+			                                			<i className="lni-cog"></i>
 			                            			</div>
 				            					</div>
 				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
@@ -55,8 +55,8 @@ class HomeComponent extends Component {
 				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 				            				<div className="row">
 				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-					            					<div class="highlight-icon orange-gradient">
-				                                		<i class="lni-layout"></i>
+					            					<div className="highlight-icon orange-gradient">
+				                                		<i className="lni-layout"></i>
 				                            		</div>
 				            					</div>
 				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
@@ -70,8 +70,8 @@ class HomeComponent extends Component {
 				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 				            				<div className="row">
 				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-					            					<div class="highlight-icon pale-green-gradient">
-						                                <i class="lni-grid"></i>
+					            					<div className="highlight-icon pale-green-gradient">
+						                                <i className="lni-grid"></i>
 						                            </div>
 				            					</div>
 				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
@@ -85,8 +85,8 @@ class HomeComponent extends Component {
 				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 				            				<div className="row">
 				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-			            							<div class="highlight-icon pink-gradient">
-			                                			<i class="lni-mobile"></i>
+			            							<div className="highlight-icon pink-gradient">
+			                                			<i className="lni-mobile"></i>
 			                            			</div>
 				            					</div>
 				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
@@ -100,8 +100,8 @@ class HomeComponent extends Component {
 				            			<div className="highlight-content">
 				            				<div className="row">
 				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-			            							<div class="highlight-icon blue-gradient">
-			                                			<i class="lni-android"></i>
+			            							<div className="highlight-icon blue-gradient">
+			                                			<i className="lni-android"></i>
 			                        				</div>
 				            					</div>
 				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">

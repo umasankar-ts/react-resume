@@ -72,10 +72,20 @@
 		display: none
 	}
 	.skills-mob-name{
-		font-size: 12px
+		font-size: 12px;
+		font-weight: 502;
+	    word-break: break-word
 	}
-	.skill-mob-card{
-		height: 103px
+	.skill-mob-percent{
+		color: rgba(255,255,255,0.8)
+	}
+	.skills-icon-shadow{		 
+     	box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2),
+    	inset -3px -3px 5px 0 rgba(255, 255, 255, 0.5);    
+    	width: 42px;
+    	height: 42px;
+    	padding: 5px;
+    	border-radius: 5px
 	}
 	.qualify-mob-card{
 		width: 100%;
@@ -85,6 +95,7 @@
 	.qualify-mob-card p{
 		font-size: 12px
 	}
+
 }
 
 /*only for desktop screen*/

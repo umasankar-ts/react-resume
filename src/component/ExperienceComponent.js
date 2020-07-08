@@ -27,7 +27,7 @@ class ExperienceComponent extends Component{
                                         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                             <div className="row exp-sec-space">
                                                 <div className="col-xl-3 col-lg-5 col-md-5 margin-t-20 animated fadeInUp">
-                                                    <div className="exp-card white-bg card-shadow">
+                                                    <div className="exp-card card-bg card-shadow">
                                                         <h6 className="text-center fancy-title primary-light-font">Trioangle Technologies</h6>
                                                         <p className="text-center secondary-dark-font">Senior Software Engineer / Android Mobile Application Developer ( Dec 2018 - Current )</p>
                                                         <div className="company-img">
@@ -38,14 +38,14 @@ class ExperienceComponent extends Component{
                                                 </div>
                                                 <div className="col-xl-9 col-lg-7 col-md-7 margin-t-20 animated fadeInRight">
                                                     <h6 className="fancy-title primary-light-font">Role</h6>
-                                                    <div className="exp-card white-bg card-shadow">
+                                                    <div className="exp-card card-bg card-shadow">
                                                         <div className="display-inline">
                                                             <i className="lni-android objective-icon secondary-dark-font"></i>
                                                             <p>Senior developer of mobile development team as well as worked as part of team to define problems, implement solutions and new technologies</p>
                                                         </div>
                                                     </div>
                                                     <h6 className="fancy-title primary-light-font margin-t-20">Tasks and Achievements</h6>
-                                                    <div className="exp-card white-bg card-shadow">    
+                                                    <div className="exp-card card-bg card-shadow">    
                                                         <div className="display-inline">
                                                             <i className="lni-android objective-icon secondary-dark-font"></i>                              
                                                             <p>Ensure every clone app working properly according to client requirement</p>
@@ -73,7 +73,7 @@ class ExperienceComponent extends Component{
                                         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                             <div className="row exp-sec-space">
                                                 <div className="col-xl-3 col-lg-5 col-md-5 margin-t-20 animated fadeInUp">
-                                                    <div className="exp-card white-bg card-shadow">
+                                                    <div className="exp-card card-bg card-shadow">
                                                         <h6 className="text-center fancy-title primary-light-font">Jovee Infotech</h6>
                                                         <p className="text-center secondary-dark-font">Software Engineer / Android Mobile Application Developer ( Jan 2016 - Dec 2018 )</p>
                                                         <div className="company-img2">
@@ -84,14 +84,14 @@ class ExperienceComponent extends Component{
                                                 </div>  
                                                 <div className="col-xl-9 col-lg-7 col-md-7 margin-t-20 animated fadeInLeft">
                                                     <h6 className="fancy-title primary-light-font">Role</h6>
-                                                    <div className="exp-card white-bg card-shadow">
+                                                    <div className="exp-card card-bg card-shadow">
                                                         <div className="display-inline">
                                                             <i className="lni-android objective-icon secondary-dark-font"></i>
                                                             <p>Project lead of Mobile Development team as well as worked as part of team to define problems, implement solutions and new technologies</p>
                                                         </div>
                                                     </div>
                                                     <h6 className="fancy-title primary-light-font margin-t-20">Tasks and Achievements</h6>
-                                                    <div className="exp-card white-bg card-shadow">    
+                                                    <div className="exp-card card-bg card-shadow">    
                                                         <div className="display-inline">
                                                             <i className="lni-android objective-icon secondary-dark-font"></i>                              
                                                             <p>Ensure applications are properly integrated with Android APIs</p>
