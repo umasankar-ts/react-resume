@@ -214,8 +214,8 @@ class SkillsComponent extends Component{
                         </div>
                         <div className="skill-sec-mob-view">
                             <div className="row animated fadeInUp">
-                                <div className="col-6 mt-2">
-                                    <div className="skill-mob-card card-bg card-shadow pink-grad-bg">                                       
+                                <div className="col-6 mt-4">
+                                    <div className="skill-mob-card white-bg card-shadow">                                       
                                         <div className="row align-items-center">
                                             <div className="col-4">
                                                 <div className="skills-icon-shadow card-bg">
@@ -223,14 +223,14 @@ class SkillsComponent extends Component{
                                                 </div>
                                             </div>
                                             <div className="col-8">
-                                                <h6 className="skills-mob-name white-font text-left">Kotlin</h6>                                            
+                                                <h6 className="skills-mob-name text-left">Kotlin</h6>                                            
                                                 <p className="mb-0 text-left skill-mob-percent">90%</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mt-2">                                    
-                                    <div className="skill-mob-card card-bg card-shadow blue-grad-bg">                                       
+                                <div className="col-6 mt-4">                                    
+                                    <div className="skill-mob-card white-bg card-shadow">                                       
                                         <div className="row align-items-center">
                                             <div className="col-4">
                                                 <div className="skills-icon-shadow card-bg">
@@ -238,14 +238,14 @@ class SkillsComponent extends Component{
                                                 </div>
                                             </div>
                                             <div className="col-8">
-                                                <h6 className="skills-mob-name white-font text-left">Java</h6>                                            
+                                                <h6 className="skills-mob-name text-left">Java</h6>                                            
                                                 <p className="mb-0 text-left skill-mob-percent">95%</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mt-2">
-                                    <div className="skill-mob-card card-bg card-shadow yellow-grad-bg">                                       
+                                <div className="col-6 mt-4">
+                                    <div className="skill-mob-card white-bg card-shadow">                                       
                                         <div className="row align-items-center">
                                             <div className="col-4">
                                                 <div className="skills-icon-shadow card-bg">
@@ -253,14 +253,14 @@ class SkillsComponent extends Component{
                                                 </div>
                                             </div>
                                             <div className="col-8">
-                                                <h6 className="skills-mob-name white-font text-left">Android NDK</h6>                                            
+                                                <h6 className="skills-mob-name text-left">Android NDK</h6>                                            
                                                 <p className="mb-0 text-left skill-mob-percent">97%</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mt-2">
-                                    <div className="skill-mob-card card-bg card-shadow green-grad-bg">                                       
+                                <div className="col-6 mt-4">
+                                    <div className="skill-mob-card white-bg card-shadow">                                       
                                         <div className="row align-items-center">
                                             <div className="col-4">
                                                 <div className="skills-icon-shadow card-bg">
@@ -268,14 +268,14 @@ class SkillsComponent extends Component{
                                                 </div>
                                             </div>
                                             <div className="col-8">
-                                                <h6 className="skills-mob-name white-font text-left">Couchbase DB</h6>                                            
+                                                <h6 className="skills-mob-name text-left">Couchbase DB</h6>                                            
                                                 <p className="mb-0 text-left skill-mob-percent">90%</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mt-2">                                  
-                                    <div className="skill-mob-card card-bg card-shadow orange-grad-bg">                                       
+                                <div className="col-6 mt-4">                                  
+                                    <div className="skill-mob-card white-bg card-shadow">                                       
                                         <div className="row align-items-center">
                                             <div className="col-4">
                                                 <div className="skills-icon-shadow card-bg">
@@ -283,14 +283,14 @@ class SkillsComponent extends Component{
                                                 </div>
                                             </div>
                                             <div className="col-8">
-                                                <h6 className="skills-mob-name white-font text-left">NativeScript</h6>                                            
+                                                <h6 className="skills-mob-name text-left">NativeScript</h6>                                            
                                                 <p className="mb-0 text-left skill-mob-percent">85%</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-6 mt-2">
-                                    <div className="skill-mob-card card-bg card-shadow violet-grad-bg">                                       
+                                <div className="col-6 mt-4">
+                                    <div className="skill-mob-card white-bg card-shadow">                                       
                                         <div className="row align-items-center">
                                             <div className="col-4">
                                                 <div className="skills-icon-shadow card-bg">
@@ -298,7 +298,7 @@ class SkillsComponent extends Component{
                                                 </div>
                                             </div>
                                             <div className="col-8">
-                                                <h6 className="skills-mob-name white-font text-left">VueJs</h6>                                            
+                                                <h6 className="skills-mob-name text-left">VueJs</h6>                                            
                                                 <p className="mb-0 text-left skill-mob-percent">70%</p>
                                             </div>
                                         </div>
