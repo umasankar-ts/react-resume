@@ -27,7 +27,7 @@ class HomeComponent extends Component {
 					            	</div>
 					        	 	<div className="display-inline">
 					                	<i className="lni-android objective-icon secondary-dark-font"></i>
-					                	<p>Experienced in Google Map api integrations and Firebase Realtime Database chating,</p>
+					                	<p>Experienced in Google Map api integrations and Firebase Realtime Database chating.</p>
 					            	</div>
 					            </div>
 				            </div>

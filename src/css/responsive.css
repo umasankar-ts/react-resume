@@ -95,6 +95,22 @@
 	.qualify-mob-card p{
 		font-size: 12px
 	}
+	.home-sec{
+    	padding-top: 50px
+	}
+	.mobileview-none{
+		display: none
+	}
+	.home-gif3{
+		top: 86%
+	}
+	.home-gif4{
+		bottom: 47%;
+		right: 2%
+	}
+	.home-gif2,.home-gif5,.home-gif7, .home-gif6{
+		display: none
+	}
 
 }
 

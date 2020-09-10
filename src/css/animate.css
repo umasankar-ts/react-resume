@@ -20,8 +20,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
-
+.anim-delay-3s{
+  animation-delay: 0.3s
+}
+.anim-delay-6s{
+  animation-delay: 0.6s
+}
+.anim-delay-9s{
+  animation-delay: 0.9s
+}
 .animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -2742,4 +2749,57 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
+}
+
+.move-up-down {
+    -webkit-animation: mover 1.7s infinite  alternate;
+    animation: mover 1.7s infinite  alternate
+}
+.swing-anim {
+    -webkit-animation: swing 2s infinite  alternate;
+    animation: swing 2s infinite  alternate
+}
+
+.flip-anim{
+    -webkit-animation: flipInY 2s infinite  alternate;
+    animation: flipInY 2s infinite  alternate
+}
+.rotate-anim{
+  -webkit-animation: rotateIn 2s infinite  alternate;
+    animation: rotateIn 2s infinite  alternate
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-12px) }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-12px) }
+}
+.run-anim{
+    -webkit-animation: run 2s infinite  alternate;
+    animation: run 2s infinite  alternate;
+   
+}
+.running-anim{
+      -webkit-animation: running1 3s infinite  alternate;
+    animation: running1 3s infinite  alternate;
+}
+
+@-webkit-keyframes run {
+    0% { left: 26%;}
+    100%{ left: 27%;}
+}
+@keyframes run {
+ 0% { left: 26%;}
+    100%{ left: 27%;}
+}
+
+@-webkit-keyframes running1 {
+    0% { left: 45%;}
+    100%{ left: 47%;}
+}
+@keyframes running1 {
+ 0% { left: 45%;}
+    100%{ left: 47%;}
 }

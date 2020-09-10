@@ -13,12 +13,13 @@ class SidebarComponent extends Component {
                     <p className="white-font designation">Android Development Team Lead</p>
                 </div>
                 <ul className="sidebar-nav-menu">
-                    <li><NavLink activeClassName='is-active' to="/home"><i className="lni-home sidebar-nav-menu-icon secondary-dark-font"></i>Home</NavLink></li>
+                    <li><NavLink activeClassName='is-active' to="/homenew"><i className="lni-home sidebar-nav-menu-icon secondary-dark-font"></i>Home New</NavLink></li>
+                    <li><NavLink activeClassName='is-active' to="/home"><i className="lni-home sidebar-nav-menu-icon secondary-dark-font"></i>Home</NavLink></li> 
                     <li><NavLink activeClassName='is-active' to="/experience"><i className="lni-layers sidebar-nav-menu-icon secondary-dark-font"></i>Experience</NavLink></li>
-                    <li><NavLink activeClassName='is-active' to="/education"><i className="lni-book sidebar-nav-menu-icon secondary-dark-font"></i>Education</NavLink></li>
+                    <li><NavLink activeClassName='is-active' to="/education"><i className="lni-graduation sidebar-nav-menu-icon secondary-dark-font"></i>Education</NavLink></li>
                     <li><NavLink activeClassName='is-active' to="/skills"><i className="lni-medall-alt sidebar-nav-menu-icon secondary-dark-font"></i>Technical Skills</NavLink></li>
-                    <li><NavLink activeClassName='is-active' to="/qualification"><i className="lni-graduation sidebar-nav-menu-icon secondary-dark-font"></i>Core Qualification</NavLink></li>
-                    <li><NavLink activeClassName='is-active' to="/uis"><i className="lni lni-brush sidebar-nav-menu-icon secondary-dark-font"></i>UIs</NavLink></li>
+                    <li><NavLink activeClassName='is-active' to="/qualification"><i className="lni-book sidebar-nav-menu-icon secondary-dark-font"></i>Core Qualification</NavLink></li>
+                    <li><NavLink activeClassName='is-active' to="/mywork"><i className="lni lni-brush sidebar-nav-menu-icon secondary-dark-font"></i>My Work</NavLink></li>
                 </ul>
             </div>
         )

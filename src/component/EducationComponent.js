@@ -42,7 +42,7 @@ class EducationComponent extends Component{
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-4 col-md-12 vertical-center animated fadeInDownBig" align="center">
+                                <div className="col-xl-4 col-md-12 vertical-center " align="center">
                                     <img src="/images/graduate.png" className="img-fluid edu-image" alt="Graduation image"/>
                                 </div>
                             </div>
