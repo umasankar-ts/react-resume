@@ -21,12 +21,7 @@
 	}	
 }
 @media (min-width:831px){
-	.skill-sec-mob-view, .qualify-mob-view{
-		display: none;
-	}
-	.skill-desk-view, .qualify-desk-view{
-		display: block;
-	}
+	
 }
 /*Large mobile device*/
 @media (max-width: 830px) {
@@ -35,7 +30,7 @@
 	}	
 	.content-wrapper {
     	margin-left: 220px;
-    	padding-top: 20px    	
+    	padding-top: 35px    	
 	}
 	.profile-pic-section{
 	    padding: 20px 10px 3px 10px
@@ -50,7 +45,7 @@
 	.profile-pic-border, .edu-image{
 		display: none
 	}
-	.exp-sec-space, .skills-sec-space, .qualify-sec-space{
+	.exp-sec-space, .qualify-sec-space{
 		padding: 0
 	}
 	.edu-sec-space{
@@ -59,33 +54,8 @@
 	.sidebar-nav-menu{
 		padding: 10px 0px
 	}
-	.skill-cards-style{
-		width: 100%
-	}
 	.designation{
 		font-size: 11px
-	}
-	.skill-sec-mob-view, .qualify-mob-view{
-		display: block
-	}
-	.skill-desk-view,.qualify-desk-view{
-		display: none
-	}
-	.skills-mob-name{
-		font-size: 12px;
-		font-weight: 502;
-	    word-break: break-word
-	}
-	.skill-mob-percent{
-		color: rgba(0,0,0,0.8)
-	}
-	.skills-icon-shadow{		 
-     	box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2),
-    	inset -3px -3px 5px 0 rgba(255, 255, 255, 0.5);    
-    	width: 42px;
-    	height: 42px;
-    	padding: 5px;
-    	border-radius: 5px
 	}
 	.qualify-mob-card{
 		width: 100%;
@@ -110,6 +80,15 @@
 	}
 	.home-gif2,.home-gif5,.home-gif7, .home-gif6{
 		display: none
+	}
+	.home-sec h1{
+		font-size: 38px
+	}
+	.tech-skill-name{
+		font-size: 12px
+	}
+	.tech-percent{
+		font-size: 14px
 	}
 
 }

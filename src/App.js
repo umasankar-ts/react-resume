@@ -3,9 +3,8 @@ import './App.css';
 import './css/responsive.css';
 import './css/animate.css'
 import InitialComponent from './component/InitialComponent';
-import HomenewComponent from './component/HomenewComponent';
 import HomeComponent from './component/HomeComponent';
-import SkillsComponent from './component/SkillsComponent';
+import AboutComponent from './component/AboutComponent';
 import QualificationComponent from './component/QualificationComponent';
 import ExperienceComponent from './component/ExperienceComponent';
 import EducationComponent from './component/EducationComponent';
@@ -18,11 +17,10 @@ class App extends Component {
             <Router>
                 <Switch>
                     <Route path="/" exact component={InitialComponent}/> 
-                    <Route path="/homenew" component={HomenewComponent}/> 
-                    <Route path="/home" component={HomeComponent}/>
+                    <Route path="/home" component={HomeComponent}/> 
+                    <Route path="/about" component={AboutComponent}/>
                     <Route path="/experience" component={ExperienceComponent}/>
                     <Route path="/education" component={EducationComponent}/> 
-                    <Route path="/skills" component={SkillsComponent}/> 
                     <Route path="/qualification" component={QualificationComponent}/>  
                     <Route path="/mywork" component={UiComponent}/>  
 
