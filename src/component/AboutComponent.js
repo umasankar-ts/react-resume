@@ -80,22 +80,24 @@ class AboutComponent extends Component {
                             		</div>
                         		</div>
 		            		</div>
-		            		<div className="col-xl-4 col-lg-6 col-md-5 home-section-space animated fadeInRight anim-delay-3s ">
-			            		<h6 className="fancy-title primary-light-font">Technical Skills</h6>
-			            		<div className="card-bg card-shadow mb-3 animated fadeInRight anim-delay-3s">
-			            			<div className="tech-skill-card-content">
-			            				<div className="row align-items-center">
-			            					<div className="col-md-3 col-3">
-			            						<img src="images/kotlin.png" className="img-fluid"/>
-			            					</div>
-			            					<div className="col-md-5 col-5 px-0">
-			            						<p className="mb-0 tech-skill-name">Kotlin</p>
-			            					</div>
-			            					<div className="col-md-4 col-4" align="center">
-			            						<h6 className="mb-0 tech-percent">90%</h6>
-			            					</div>
-			            				</div>			            				
-			            			</div>			            			
+		            		<div className="col-xl-4 col-lg-6 col-md-5 home-section-space">
+		            			<div className="animated fadeInRight anim-delay-3s">
+				            		<h6 className="fancy-title primary-light-font">Technical Skills</h6>
+				            		<div className="card-bg card-shadow mb-3">
+				            			<div className="tech-skill-card-content">
+				            				<div className="row align-items-center">
+				            					<div className="col-md-3 col-3">
+				            						<img src="images/kotlin.png" className="img-fluid"/>
+				            					</div>
+				            					<div className="col-md-5 col-5 px-0">
+				            						<p className="mb-0 tech-skill-name">Kotlin</p>
+				            					</div>
+				            					<div className="col-md-4 col-4" align="center">
+				            						<h6 className="mb-0 tech-percent">90%</h6>
+				            					</div>
+				            				</div>			            				
+				            			</div>			            			
+				            		</div>
 			            		</div>
 			            		<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-6s">
 			            			<div className="tech-skill-card-content">
