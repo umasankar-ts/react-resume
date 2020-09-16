@@ -14,18 +14,18 @@ class AboutComponent extends Component {
 	    	 	<div className="content-wrapper">
 	    	 		<div className="container-fluid">
 		            	<div className="row">
-		            		<h1 className="col-md-12 heading primary-light-font fancy-heading">About Me</h1> 
-		            		<div className="col-md-12 home-section-space">
+		            		<h1 className="col-md-12 col-12 heading primary-light-font fancy-heading">About Me</h1> 
+		            		<div className="col-md-12 col-12 home-section-space">
 		            			<div className="card-bg animated fadeInDown card-shadow">
 		            				<div className="about-card"> 
 	                                    <div className="row align-items-center">
-	                                    	<div className="col-xl-5 col-lg-4 col-md-12 ">
+	                                    	<div className="col-xl-5 col-lg-4 col-md-12 col-12">
 	                                    		<div className="display-inline align-items-center">
 	                                    			<div className="about-profile-pic card-shadow">
 	                                    				<img src="images/profile.png" className="img-fluid"/>
 	                                    			</div>
 	                                    			<div className="about-card-content">
-	                                    				<h6 className="primary-dark-font about-name">Umasankar T S</h6>
+	                                    				<h5 className="primary-dark-font about-name">UMASANKAR T S</h5>
 	                                    				<p className="about-designation">Android Development Team Lead</p>
 	                                    			</div>
 	                                			</div>
@@ -44,43 +44,42 @@ class AboutComponent extends Component {
                             </div>
 		            	</div>
 		            	<div className="row">	    	 				
-		            		<div className="col-xl-8 col-lg-6 col-md-7 home-section-space">
-		            			<div className="card-bg card-shadow animated fadeInLeft anim-delay-3s">
-            						<div className="about-card"> 
-                                		<h6 className="fancy-title primary-dark-font mb-0">Personal Info</h6>
-    									<hr className="secondary-dark-bg personal-info-hr"/>
-						            	<div className="personal-info-sec">
-						            		<div className="row">
-				            					<div className="col-md-6 col-sm-6">
-				            						<span className="dark-bg-font">Father Name</span>
-							            			<p className="personal-info-content">T.R. Surendran</p>
-				            					</div>
-							            		<div className="col-md-6 col-sm-6">									            			
-		            								<span className="dark-bg-font">Date of Birth</span>											            		
-							            			<p className="personal-info-content">04/June/1992</p>										            			
-						            			</div>
-				            				</div>
-							            	<div className="row">
-							            		<div className="col-md-6 col-sm-6">
-							            			<span className="dark-bg-font">Gender</span>
-							            			<p className="personal-info-content">Male</p>
-						            			</div>
-							            		<div className="col-md-6 col-sm-6">
-							            			<span className="dark-bg-font">Marital Status</span>
-							            			<p className="personal-info-content">Married</p>
-							            		</div>									            		
-				            				</div>
-							            	<div className="row">
-							            		<div className="col-md-12 col-sm-12">
-							            			<span className="dark-bg-font">Address</span>
-							            			<p className="personal-info-content">99, Valluvar Colony, <br/>P&T Nagar road, Madurai - 625014</p>
-							            		</div>
-				            				</div>
-						            	</div>
-                            		</div>
-                        		</div>
+		            		<div className="col-xl-8 col-lg-7 col-md-12 home-section-space">
+                                <h6 className="fancy-title primary-light-font mb-0">Personal Info</h6>
+                                <div className="row">
+                                	<div className="col-xl-4 col-lg-6 col-md-4 col-sm-6 mt-5">
+                                		<div className="card-bg card-shadow personal-detail-card animated fadeInLeft anim-delay-3s">
+						            		<p className="personal-info-content text-center mb-0">T.R. Surendran</p>
+        									<p className="primary-dark-bg mb-0 personal-detail-title text-center white-font">Father Name</p>
+        								</div>
+                                	</div>
+                                	<div className="col-xl-4 col-lg-6 col-md-4 col-sm-6 mt-5">
+                                		<div className="card-bg card-shadow personal-detail-card animated fadeInLeft anim-delay-3s">
+						            		<p className="personal-info-content text-center mb-0">04/June/1992</p>
+        									<p className="primary-dark-bg mb-0 personal-detail-title text-center white-font">DOB</p>
+        								</div>
+                                	</div>
+                                	<div className="col-xl-4 col-lg-6 col-md-4 col-sm-6 mt-5">
+                                		<div className="card-bg card-shadow personal-detail-card animated fadeInLeft anim-delay-3s">
+						            		<p className="personal-info-content text-center mb-0">Male</p>
+        									<p className="primary-dark-bg mb-0 personal-detail-title text-center white-font">Gender</p>
+        								</div>
+                                	</div>
+                                	<div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-5">
+                                		<div className="card-bg card-shadow personal-detail-card animated fadeInLeft anim-delay-3s">
+						            		<p className="personal-info-content text-center mb-0">Married</p>
+        									<p className="primary-dark-bg mb-0 personal-detail-title text-center white-font">Marital Status</p>
+        								</div>
+                                	</div>
+                                	<div className="col-xl-6 col-lg-12 col-md-6 col-sm-12 mt-5">
+                                		<div className="card-bg card-shadow personal-detail-card animated fadeInLeft anim-delay-3s">
+						            		<p className="personal-info-content text-center mb-0">99, Valluvar Colony, <br/>P&T Nagar road, Madurai - 625014</p>
+        									<p className="primary-dark-bg mb-0 personal-detail-title text-center white-font">Address</p>
+        								</div>
+                                	</div>
+                                </div>		            			
 		            		</div>
-		            		<div className="col-xl-4 col-lg-6 col-md-5 home-section-space">
+		            		<div className="col-xl-4 col-lg-5 col-md-12 home-section-space">
 		            			<div className="animated fadeInRight anim-delay-3s">
 				            		<h6 className="fancy-title primary-light-font">Technical Skills</h6>
 				            		<div className="card-bg card-shadow mb-3">
@@ -176,7 +175,7 @@ class AboutComponent extends Component {
 	            				</div>
 	            			</div>			            	
 		            	</div>
-		            	<div className="row">
+		            	<div className="row home-section-space">
 		            		<div className="col-xl-4 col-lg-12 col-md-12 mt-3 animated fadeInLeft anim-delay-6s">
                         		<div className="card-style primary-light-bg card-shadow">
 					            	<h6 className="fancy-title white-font mb-0 text-center">Motivations</h6>

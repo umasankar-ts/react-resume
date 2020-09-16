@@ -451,10 +451,11 @@ Skill Component
     padding-left: 12px
 }
 .about-designation{
-    font-size: 12px
+    font-size: 14px
 }
 .about-name{
     font-weight: 502;
+    font-size: 19px
 }
 .about-card a:hover{
     color: #3d5654
@@ -464,7 +465,21 @@ Skill Component
     width:100%
 }
 .personal-info-content{
-    font-weight: 501
+    font-weight: 501;
+    padding:35px 7px 0 7px;
+    min-height: 105px
+}
+.personal-detail-title{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    font-size: 14px
+}
+.personal-detail-card{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 /*===========================
     Experience Component
