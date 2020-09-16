@@ -12,161 +12,7 @@ class AboutComponent extends Component {
 	    	 		<MessageComponent></MessageComponent>
 	    	 	</div>
 	    	 	<div className="content-wrapper">
-	    	 		<div className="container-fluid"> 	    	 			 	 			 	
-	    	 			{/*<div className="row">
-	    	 				<h1 className="col-md-12 heading primary-light-font">About Me</h1>  
-			            	<div className="col-xl-8 col-lg-12 col-md-12 home-section-space animated fadeInLeft">
-			            		<h6 className="fancy-title primary-light-font">Highlights</h6>
-			            		<div className="highlight-card card-shadow card-bg">
-				            		<div className="highlight-view highlight-card-top-border">
-				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
-				            				<div className="row">
-				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-													<div className="highlight-icon green-gradient">
-			                                			<i className="lni-cog"></i>
-			                            			</div>
-				            					</div>
-				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
-				            						<p className="highlight-text-center">Known for writing efficient, maintainable and reusable code</p>
-				            					</div>
-				            				</div>
-				            			</div>
-				        			</div>
-				            		<div className="dashed-border"></div>
-				            		<div className="highlight-view highlight-topview highlight-view-left highlight-view-right">
-				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
-				            				<div className="row">
-				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-					            					<div className="highlight-icon orange-gradient">
-				                                		<i className="lni-layout"></i>
-				                            		</div>
-				            					</div>
-				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
-				            						<p className="highlight-text-center">Proficient in design, data structures, problem-solving, and debugging</p>
-				            					</div>
-				            				</div>
-				            			</div>
-				        			</div>
-				        			<div className="dashed-border"></div>
-				        			<div className="highlight-view highlight-topview highlight-view-left highlight-view-right">
-				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
-				            				<div className="row">
-				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-					            					<div className="highlight-icon pale-green-gradient">
-						                                <i className="lni-grid"></i>
-						                            </div>
-				            					</div>
-				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
-				            						<p className="highlight-text-center">Expert in the interaction between various devices and versions of Android</p>
-				            					</div>
-				            				</div>			            			
-				            			</div>
-				        			</div>
-				        			<div className="dashed-border"></div>
-				        			<div className="highlight-view highlight-topview highlight-view-left highlight-view-right">
-				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
-				            				<div className="row">
-				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-			            							<div className="highlight-icon pink-gradient">
-			                                			<i className="lni-mobile"></i>
-			                            			</div>
-				            					</div>
-				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
-				            						<p className="highlight-text-center">Ability to design for scale and Performance</p>
-				            					</div>
-			    							</div>
-				            			</div>
-				        			</div>
-				        			<div className="dashed-border"></div>
-				        			<div className="highlight-view highlight-topview highlight-view-left highlight-view-right highlight-card-bottom-border">
-				            			<div className="highlight-content">
-				            				<div className="row">
-				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
-			            							<div className="highlight-icon blue-gradient">
-			                                			<i className="lni-android"></i>
-			                        				</div>
-				            					</div>
-				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
-				            						<p className="highlight-text-center">Created 3+ fully functional applications for Android devices</p>
-				            					</div>
-			    							</div>
-				            			</div>
-				        			</div>
-			        			</div>
-			            	</div>
-			            	<div className="col-xl-4 col-lg-8 col-md-12 home-section-space animated fadeInRight ">
-			            		<div className="card-style primary-light-bg card-shadow">
-					            	<h6 className="fancy-title white-font mb-0">Personal Info</h6>
-					            	<hr className="secondary-dark-bg personal-info-hr"/>
-					            	<div className="personal-info-sec">
-						            	<div className="row">
-						            		<div className="col-md-6 col-sm-6">
-						            			<span className="dark-bg-font">Name</span>
-						            		</div>
-						            		<div className="col-md-6 col-sm-6">
-						            			<p className="white-font">T.S. Umasankar</p>
-					            			</div>
-						            	</div>
-						            	<div className="row">
-						            		<div className="col-md-6 col-sm-6">
-						            			<span className="dark-bg-font">Father Name</span>
-						            		</div>
-						            		<div className="col-md-6 col-sm-6">
-						            			<p className="white-font">T.R. Surendran</p>
-					            			</div>
-						            	</div>
-						            	<div className="row">
-						            		<div className="col-md-6 col-sm-6">
-						            			<span className="dark-bg-font">Date of Birth</span>
-						            		</div>
-						            		<div className="col-md-6 col-sm-6">
-						            			<p className="white-font">04/June/1992</p>
-					            			</div>
-						            	</div>
-						            	<div className="row">
-						            		<div className="col-md-6 col-sm-6">
-						            			<span className="dark-bg-font">Marital Status</span>
-						            		</div>
-						            		<div className="col-md-6 col-sm-6">
-						            			<p className="white-font">Married</p>
-					            			</div>
-						            	</div>
-						            	<div className="row">
-						            		<div className="col-md-6 col-sm-6">
-						            			<span className="dark-bg-font">Gender</span>
-						            		</div>
-						            		<div className="col-md-6 col-sm-6">
-						            			<p className="white-font">Male</p>
-					            			</div>
-						            	</div>
-						            	<div className="row">
-						            		<div className="col-md-6 col-sm-6">
-						            			<span className="dark-bg-font">Mobile Number</span>
-						            		</div>
-						            		<div className="col-md-6 col-sm-6">
-						            			<p><a className="white-font link-style" href="tel:8807527642">8807527642</a></p>
-					            			</div>
-						            	</div>
-						            	<div className="row">
-						            		<div className="col-md-6 col-sm-6">
-						            			<span className="dark-bg-font">Email</span>
-						            		</div>
-						            		<div className="col-md-6 col-sm-6">
-						            			<p><a className="white-font link-style text-word-br" href="mailto:umasankar.tsj@gmail.com">umasankar.tsj@gmail.com</a></p>
-					            			</div>
-						            	</div>
-						            	<div className="row">
-						            		<div className="col-md-6 col-sm-6">
-						            			<span className="dark-bg-font">Address</span>
-						            		</div>
-						            		<div className="col-md-6 col-sm-6">
-						            			<p className="white-font">99, Valluvar Colony, P&T Nagar road, Madurai - 625014</p>
-					            			</div>
-						            	</div>
-					            	</div>
-			            		</div>
-			            	</div>
-		            	</div>*/}
+	    	 		<div className="container-fluid">
 		            	<div className="row">
 		            		<h1 className="col-md-12 heading primary-light-font fancy-heading">About Me</h1> 
 		            		<div className="col-md-12 home-section-space">
@@ -199,7 +45,7 @@ class AboutComponent extends Component {
 		            	</div>
 		            	<div className="row">	    	 				
 		            		<div className="col-xl-8 col-lg-6 col-md-7 home-section-space">
-		            			<div className="card-bg card-shadow animated fadeInLeft">
+		            			<div className="card-bg card-shadow animated fadeInLeft anim-delay-3s">
             						<div className="about-card"> 
                                 		<h6 className="fancy-title primary-dark-font mb-0">Personal Info</h6>
     									<hr className="secondary-dark-bg personal-info-hr"/>
@@ -207,34 +53,34 @@ class AboutComponent extends Component {
 						            		<div className="row">
 				            					<div className="col-md-6 col-sm-6">
 				            						<span className="dark-bg-font">Father Name</span>
-							            			<p>T.R. Surendran</p>
+							            			<p className="personal-info-content">T.R. Surendran</p>
 				            					</div>
 							            		<div className="col-md-6 col-sm-6">									            			
 		            								<span className="dark-bg-font">Date of Birth</span>											            		
-							            			<p>04/June/1992</p>										            			
+							            			<p className="personal-info-content">04/June/1992</p>										            			
 						            			</div>
 				            				</div>
 							            	<div className="row">
 							            		<div className="col-md-6 col-sm-6">
 							            			<span className="dark-bg-font">Gender</span>
-							            			<p>Male</p>
+							            			<p className="personal-info-content">Male</p>
 						            			</div>
 							            		<div className="col-md-6 col-sm-6">
 							            			<span className="dark-bg-font">Marital Status</span>
-							            			<p>Married</p>
+							            			<p className="personal-info-content">Married</p>
 							            		</div>									            		
 				            				</div>
 							            	<div className="row">
 							            		<div className="col-md-12 col-sm-12">
 							            			<span className="dark-bg-font">Address</span>
-							            			<p>99, Valluvar Colony, <br/>P&T Nagar road, Madurai - 625014</p>
+							            			<p className="personal-info-content">99, Valluvar Colony, <br/>P&T Nagar road, Madurai - 625014</p>
 							            		</div>
 				            				</div>
 						            	</div>
                             		</div>
                         		</div>
 		            		</div>
-		            		<div className="col-xl-4 col-lg-6 col-md-5 home-section-space ">
+		            		<div className="col-xl-4 col-lg-6 col-md-5 home-section-space animated fadeInRight anim-delay-3s ">
 			            		<h6 className="fancy-title primary-light-font">Technical Skills</h6>
 			            		<div className="card-bg card-shadow mb-3 animated fadeInRight anim-delay-3s">
 			            			<div className="tech-skill-card-content">
@@ -281,7 +127,7 @@ class AboutComponent extends Component {
 			            				</div>
 		            				</div>
 	            				</div>
-	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-6s">
+	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-12s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
 			            					<div className="col-md-3 col-3">
@@ -296,7 +142,7 @@ class AboutComponent extends Component {
 			            				</div>
 		            				</div>
 	            				</div>
-	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-3s">
+	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-15s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
 			            					<div className="col-md-3 col-3">
@@ -311,7 +157,7 @@ class AboutComponent extends Component {
 			            				</div>
 		            				</div>
 	            				</div>
-	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-9s">
+	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-18s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
 			            					<div className="col-md-3 col-3">
@@ -329,7 +175,7 @@ class AboutComponent extends Component {
 	            			</div>			            	
 		            	</div>
 		            	<div className="row">
-		            		<div className="col-xl-4 col-lg-12 col-md-12 mt-3 animated fadeInLeft">
+		            		<div className="col-xl-4 col-lg-12 col-md-12 mt-3 animated fadeInLeft anim-delay-6s">
                         		<div className="card-style primary-light-bg card-shadow">
 					            	<h6 className="fancy-title white-font mb-0 text-center">Motivations</h6>
 			            			<div className="personal-info-sec">
@@ -367,7 +213,7 @@ class AboutComponent extends Component {
 			            			<img src="/images/motivation.svg" className="img-fluid motivation-img move-up-down" alt="Breaking Barrier"/>
 		            			</div>
                         	</div>
-                        	<div className="col-xl-8 col-lg-12 col-md-12 animated fadeInRight mt-3">
+                        	<div className="col-xl-8 col-lg-12 col-md-12 animated fadeInRight mt-3 anim-delay-9s">
 			            		<h6 className="fancy-title primary-light-font">Highlights</h6>
 			            		<div className="highlight-card card-shadow card-bg">
 				            		<div className="highlight-view highlight-card-top-border">

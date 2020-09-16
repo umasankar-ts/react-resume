@@ -13,10 +13,10 @@ class ExperienceComponent extends Component{
                         <MessageComponent></MessageComponent>
                     </div>
                     <div className="content-wrapper">
-                        <div className="container-fluid">
-                            <h6 className="fancy-title primary-light-font">Experience</h6>
+                        <div className="container-fluid">                            
                             <div className="row">
-                                <div className="col-md-12">
+                                <h1 className="col-md-12 heading primary-light-font fancy-heading">Experience</h1> 
+                                <div className="col-md-12 home-section-space">
                                     <nav>
                                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                             <a class="nav-item nav-link active card-shadow" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Trioangle Technologies</a>

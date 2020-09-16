@@ -21,7 +21,12 @@
 	}	
 }
 @media (min-width:831px){
-	
+	.qualify-desk-view{
+		display: block
+	}
+	.qualify-mob-view{
+		display: none;
+	}
 }
 /*Large mobile device*/
 @media (max-width: 830px) {
@@ -34,7 +39,10 @@
 	}
 	.profile-pic-section{
 	    padding: 20px 10px 3px 10px
-	}	
+	}
+	.logo-section{
+		padding: 12px 10px;
+	}
 	.user-name{
 		font-size: 20px !important
 	}
@@ -46,7 +54,7 @@
 		display: none
 	}
 	.exp-sec-space, .qualify-sec-space{
-		padding: 0
+		padding-top: 25px
 	}
 	.edu-sec-space{
 		padding-top: 0
@@ -64,6 +72,12 @@
 	}
 	.qualify-mob-card p{
 		font-size: 12px
+	}
+	.qualify-mob-view{
+		display: block
+	}
+	.qualify-desk-view{
+		display: none
 	}
 	.home-sec{
     	padding-top: 50px

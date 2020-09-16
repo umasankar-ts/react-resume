@@ -13,9 +13,9 @@ class EducationComponent extends Component{
                         <MessageComponent></MessageComponent>
                     </div>
                     <div className="content-wrapper">
-                        <div className="container-fluid">
-                            <h6 className="fancy-title primary-light-font">Education</h6>
-                            <div className="row exp-sec-space">
+                        <div className="container-fluid">                            
+                            <div className="row">
+                                <h1 className="col-md-12 heading primary-light-font fancy-heading">Education</h1>
                                 <div className="col-xl-8 col-md-12 edu-sec-space">
                                     <div className="edu-card card-bg animated fadeInLeft card-shadow">
                                         <div className="row">

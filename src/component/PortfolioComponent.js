@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-class UiComponent extends Component{
+class PortfolioComponent extends Component{
 	render(){
         var settings = {
             dots: false,
@@ -39,9 +39,9 @@ class UiComponent extends Component{
                     <MessageComponent></MessageComponent>
                 </div>
                 <div className="content-wrapper">
-                    <div className="container-fluid">
-                        <h6 className="fancy-title primary-light-font">Project UIs</h6>
+                    <div className="container-fluid">                        
                     	<div className="row">
+                            <h1 className="col-md-12 heading primary-light-font fancy-heading">My Portfolio</h1>
                             <div className="col-md-12">
                                 <Slider {...settings}>
                                     <img src="/images/ui1.png" className="img-fluid" alt="App screenshot1"/>
@@ -63,4 +63,4 @@ class UiComponent extends Component{
 	}
 }
 
-export default UiComponent
+export default PortfolioComponent

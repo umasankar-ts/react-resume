@@ -14,9 +14,11 @@ class QualificationComponent extends Component{
                 </div>
                 <div className="content-wrapper">
                     <div className="container-fluid">
-                    	<h6 className="fancy-title primary-light-font">Core Qualification</h6>
-                        <div className="qualify-desk-view">
-                            <div className="row qualify-sec-space">
+                        <div className="row">
+                            <h1 className="col-md-12 heading primary-light-font fancy-heading">Core Qualification</h1>
+                        </div>
+                        <div className="qualify-desk-view">                            
+                            <div className="row qualify-sec-space">                                
                                 <div className="col-xl-4 col-md-12 col-sm-12 animated fadeInLeft">
                                     <div className="qualify-card card-bg card-shadow"> 
                                         <div className="row">
