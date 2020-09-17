@@ -19,25 +19,19 @@ class AboutComponent extends Component {
 		            			<div className="card-bg animated fadeInDown card-shadow">
 		            				<div className="about-card"> 
 	                                    <div className="row align-items-center">
-	                                    	<div className="col-xl-5 col-lg-4 col-md-12 col-12">
-	                                    		<div className="display-inline align-items-center">
-	                                    			<div className="about-profile-pic card-shadow">
-	                                    				<img src="images/profile.png" className="img-fluid"/>
-	                                    			</div>
-	                                    			<div className="about-card-content">
-	                                    				<h5 className="primary-dark-font about-name">UMASANKAR T S</h5>
-	                                    				<p className="about-designation">Android Development Team Lead</p>
-	                                    			</div>
-	                                			</div>
+	                                    	<div className="col-xl-2 col-lg-4 col-md-5 col-12" align="center">
+                                    			<div className="about-profile-pic card-shadow">
+                                    				<img src="images/profile.png" className="img-fluid"/>
+                                    			</div>
 	                                    	</div>
-	                                    	<div className="col-xl-4 col-lg-5 col-md-12" align="center">
-	                                			<div className="about-card-content">	                                    		
-			    	 			 					<i className="lni lni-envelope align-middle primary-light-font"/> <a href="mailto:umasankar.tsj@gmail.com" className="secondary-dark-font">umasankar.tsj@gmail.com</a>
-		    	 			 					</div>
-	                                    	</div>
-	                                    	<div className="col-xl-3 col-lg-3 col-md-12 pt-sm-2" align="center">
-	                                    		<i className="lni-phone-handset align-middle primary-light-font"/> <a href="tel:8807527642" className="secondary-dark-font"> 8807527642</a>
-	                                    	</div>
+	                                    	<div className="col-xl-10 col-lg-8 col-md-7 col-12 profile-details">
+	                                			<div className="about-card-content ">
+                                    				<h5 className="primary-dark-font about-name">UMASANKAR T S</h5>
+                                    				<p className="about-designation">Android Development Team Lead</p>
+                                    				<p><i className="lni lni-envelope align-middle primary-light-font"/> <a href="mailto:umasankar.tsj@gmail.com" className="secondary-dark-font">umasankar.tsj@gmail.com</a></p>
+                                    				<p><i className="lni-phone-handset align-middle primary-light-font"/> <a href="tel:8807527642" className="secondary-dark-font"> 8807527642</a></p>
+                                    			</div>
+	                                    	</div>	                                    	
 	                                    </div>
 	                                </div>
 	                            </div>

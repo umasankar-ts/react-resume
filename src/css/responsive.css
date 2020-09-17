@@ -5,7 +5,9 @@
 
 /* tablets */
 @media (max-width: 991px) {
-
+.about-card{
+		background-image: none
+	}
 
 }
 
@@ -18,7 +20,12 @@
 @media (max-width: 767px) {
 	.highlight-text-center{
 		text-align: center
-	}	
+	}
+	.profile-details{
+		padding-top: 15px;
+		text-align: center
+	}
+	
 }
 @media (min-width:831px){
 	.qualify-desk-view{
@@ -31,10 +38,10 @@
 /*Large mobile device*/
 @media (max-width: 830px) {
 	.sidebar{
-		width: 220px
+		width: 190px
 	}	
 	.content-wrapper {
-    	margin-left: 220px;
+    	margin-left: 190px;
     	padding-top: 35px    	
 	}
 	.profile-pic-section{

@@ -162,7 +162,15 @@ Initial start page
     height: 150px;
     cursor: pointer
 }
+.initial-bg{
+    background-image: url(/images/circular-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: cover;
 
+}
 /*=================
 Sidebar
 ==================*/
@@ -435,17 +443,20 @@ Skill Component
     font-weight: 600
 }
 .about-card{
-    padding: 15px
+    padding: 15px 0px;
+    background-image: url(/images/profile-bg.png);
+    background-repeat: no-repeat;
+    background-position: right -90px center
 }
 .about-profile-pic{
-    width: 100px;
-    height: 100px;
+    width: 170px;
+    height: 170px;
     background-color: #24bdc9
 }
 .about-profile-pic img{
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+    width: 170px;
+    height:170px;
+    object-fit: contain
 }
 .about-card-content{
     padding-left: 12px
@@ -455,7 +466,7 @@ Skill Component
 }
 .about-name{
     font-weight: 502;
-    font-size: 19px
+    font-size: 20px
 }
 .about-card a:hover{
     color: #3d5654
@@ -479,7 +490,7 @@ Skill Component
 }
 .personal-detail-card{
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px
 }
 /*===========================
     Experience Component
