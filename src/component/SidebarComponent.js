@@ -9,8 +9,8 @@ class SidebarComponent extends Component {
                     {/*<div className="logo-sec">
                         <img src="/images/us-logo.png" className="img-fluid" alt="Logo"/>
                     </div>*/}
-                    <h5 className="mt-2 user-name">T.S. Umasankar</h5>
-                    <p className="white-font designation">Android Development Team Lead</p>
+                    <h5 className="mt-2 user-name secondary-dark-font">T.S. Umasankar</h5>
+                    <p className="white-font designation mb-0">Android Development Team Lead</p>
                 </div>
                 <ul className="sidebar-nav-menu">
                     <li><NavLink activeClassName='is-active' to="/home"><i className="lni-home sidebar-nav-menu-icon secondary-dark-font"></i>Home</NavLink></li>

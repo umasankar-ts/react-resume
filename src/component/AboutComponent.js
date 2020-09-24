@@ -49,7 +49,7 @@ class AboutComponent extends Component {
                                 	</div>
                                 	<div className="col-xl-4 col-lg-6 col-md-4 col-sm-6 mt-5">
                                 		<div className="card-bg card-shadow personal-detail-card animated fadeInLeft anim-delay-3s">
-						            		<p className="personal-info-content text-center mb-0">04/June/1992</p>
+						            		<p className="personal-info-content text-center mb-0">June 04, 1992</p>
         									<p className="primary-dark-bg mb-0 personal-detail-title text-center white-font">DOB</p>
         								</div>
                                 	</div>
@@ -126,6 +126,21 @@ class AboutComponent extends Component {
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
 			            					<div className="col-md-3 col-3">
+			            						<img src="images/xml.png" className="img-fluid"/>
+			            					</div>
+			            					<div className="col-md-5 col-5 px-0">
+			            						<p className="mb-0 tech-skill-name">XML</p>
+			            					</div>
+			            					<div className="col-md-4 col-4" align="center">
+			            						<h6 className="mb-0 tech-percent">95%</h6>
+			            					</div>
+			            				</div>
+		            				</div>
+	            				</div>
+	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-15s">
+			            			<div className="tech-skill-card-content">
+			            				<div className="row align-items-center">
+			            					<div className="col-md-3 col-3">
 			            						<img src="images/database.png" className="img-fluid"/>
 			            					</div>
 			            					<div className="col-md-5 col-5 px-0">
@@ -137,7 +152,7 @@ class AboutComponent extends Component {
 			            				</div>
 		            				</div>
 	            				</div>
-	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-15s">
+	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-18s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
 			            					<div className="col-md-3 col-3">
@@ -152,7 +167,7 @@ class AboutComponent extends Component {
 			            				</div>
 		            				</div>
 	            				</div>
-	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-18s">
+	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-21s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
 			            					<div className="col-md-3 col-3">

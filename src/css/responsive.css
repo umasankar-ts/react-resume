@@ -1,21 +1,12 @@
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
-
 }
-
 /* tablets */
-@media (max-width: 991px) {
-.about-card{
-		background-image: none
-	}
-
+@media (max-width: 991px) {	
 }
-
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-
 }
-
 /* mobile or only mobile */
 @media (max-width: 767px) {
 	.highlight-text-center{
@@ -44,9 +35,6 @@
     	margin-left: 190px;
     	padding-top: 35px    	
 	}
-	.profile-pic-section{
-	    padding: 20px 10px 3px 10px
-	}
 	.logo-section{
 		padding: 12px 10px;
 	}
@@ -57,7 +45,7 @@
 		padding: 8px;
 		font-size: 12px
 	}
-	.profile-pic-border, .edu-image{
+	.edu-image, .qualify-image{
 		display: none
 	}
 	.exp-sec-space, .qualify-sec-space{
@@ -70,12 +58,11 @@
 		padding: 10px 0px
 	}
 	.designation{
-		font-size: 11px
+		font-size: 12px
 	}
 	.qualify-mob-card{
 		width: 100%;
-		padding: 7px;
-		border-left: 2px solid #c99c33
+		padding: 7px;		
 	}
 	.qualify-mob-card p{
 		font-size: 12px
@@ -135,6 +122,9 @@ and (-webkit-min-device-pixel-ratio: 2){
 	}
  	.company-img2{
  		padding: 122px 0px
+ 	}
+ 	.qualify-img-sec{
+ 		display: none;
  	}
 
 }

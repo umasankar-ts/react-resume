@@ -14,9 +14,9 @@ class EducationComponent extends Component{
                     </div>
                     <div className="content-wrapper">
                         <div className="container-fluid">                            
-                            <div className="row">
+                            <div className="row align-items-center">
                                 <h1 className="col-md-12 heading primary-light-font fancy-heading">Education</h1>
-                                <div className="col-xl-8 col-md-12 edu-sec-space">
+                                <div className="col-xl-7 col-lg-8 col-md-12 edu-sec-space">
                                     <div className="edu-card card-bg animated fadeInLeft card-shadow">
                                         <div className="row">
                                             <div className="col-md-10">
@@ -42,8 +42,8 @@ class EducationComponent extends Component{
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-4 col-md-12 vertical-center " align="center">
-                                    <img src="/images/graduate.png" className="img-fluid edu-image" alt="Graduation image"/>
+                                <div className="col-xl-5 col-lg-4 col-md-12" align="center">
+                                    <img src="/images/graduation.svg" className="img-fluid edu-image animated fadeInUp" alt="Graduation image"/>
                                 </div>
                             </div>
                         </div>

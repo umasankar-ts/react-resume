@@ -16,8 +16,8 @@ class HobbiesComponent extends Component{
                     <div className="container-fluid">                            
                         <div className="row">
                             <h1 className="col-md-12 heading primary-light-font fancy-heading">My Hobbies</h1>
-                            <div className="col-md-12 home-section-space">
-                            	<h4>My Hobbies Section</h4>
+                            <div className="col-md-12 home-section-space" align="center">
+                            	<img src="images/hobbies.png" className="img-fluid animated fadeInDown"/>
                             </div>
                         </div> 
                     </div>
