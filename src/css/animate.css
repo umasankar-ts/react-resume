@@ -41,6 +41,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .anim-delay-21s{
   animation-delay: 1.8s
 }
+.anim-delay-24s{
+  animation-delay: 2.1s
+}
+.anim-delay-27s{
+  animation-delay: 2.4s
+}
+.anim-delay-30s{
+  animation-delay: 2.7s
+}
+.anim-delay-33s{
+  animation-delay: 3.0s
+}
+.anim-delay-36s{
+  animation-delay: 3.4s
+}
 
 .animated.hinge {
   -webkit-animation-duration: 2s;

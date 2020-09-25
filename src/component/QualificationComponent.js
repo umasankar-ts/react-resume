@@ -132,7 +132,7 @@ class QualificationComponent extends Component{
                         </div>
                         <div className="qualify-mob-view">
                             <div className="row qualify-sec-space">
-                                <div className="col-sm-6 col-6">                            
+                                <div className="col-sm-6 col-6 animated fadeInLeft">                            
                                     <div className="qualify-mob-card card-bg card-shadow mt-3">
                                          <div className="row">                                            
                                             <div className="col-md-2 col-3" align="center" >
@@ -184,7 +184,7 @@ class QualificationComponent extends Component{
                                         </div> 
                                     </div>
                                 </div>
-                                <div className="col-sm-6 col-6">                              
+                                <div className="col-sm-6 col-6 animated fadeInRight">                              
                                     <div className="qualify-mob-card card-bg card-shadow mt-3">
                                        <div className="row">
                                             <div className="col-md-2 col-3" align="center" >
