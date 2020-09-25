@@ -42,7 +42,7 @@
 		font-size: 20px !important
 	}
 	.sidebar-nav-menu>li>a {
-		padding: 8px;
+		padding: 6px;
 		font-size: 12px
 	}
 	.edu-image, .qualify-image{
@@ -97,6 +97,9 @@
 	}
 	.tech-percent{
 		font-size: 14px
+	}
+	.sidebar-nav-menu>li{
+		margin-left: 5px
 	}
 
 }

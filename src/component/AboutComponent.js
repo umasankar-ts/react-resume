@@ -245,6 +245,21 @@ class AboutComponent extends Component {
 				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
 				            				<div className="row">
 				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
+					            					<div className="highlight-icon purple-gradient">
+				                                		<i className="lni-database"></i>
+				                            		</div>
+				            					</div>
+				            					<div className="col-xl-11 col-lg-11 col-md-10 col-sm-10">
+				            						<p className="highlight-text-center">Experienced in Google Map api integrations and Firebase Realtime Database chating.</p>
+				            					</div>
+				            				</div>
+				            			</div>
+				        			</div>
+				        			<div className="dashed-border"></div>
+				            		<div className="highlight-view highlight-topview highlight-view-left highlight-view-right">
+				            			<div className="highlight-content highlight-bottomview highlight-view-left highlight-view-right">
+				            				<div className="row">
+				            					<div className="col-xl-1 col-lg-1 col-md-2 col-sm-2" align="center">
 					            					<div className="highlight-icon orange-gradient">
 				                                		<i className="lni-layout"></i>
 				                            		</div>
