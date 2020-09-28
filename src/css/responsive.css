@@ -141,6 +141,7 @@ and (-webkit-min-device-pixel-ratio: 2){
    		display: block
    }
    body{
-   		background:#425c5a
+   		/*background:#425c5a*/
+   		background-color: #0DA1B1
    }
 }
