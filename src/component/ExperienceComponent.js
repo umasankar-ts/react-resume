@@ -15,16 +15,16 @@ class ExperienceComponent extends Component{
                     <div className="content-wrapper">
                         <div className="container-fluid">                            
                             <div className="row">
-                                <h1 className="col-md-12 heading primary-light-font fancy-heading">Experience</h1> 
+                                <h1 className="col-md-12 heading primary-dark-font fancy-heading">Experience</h1> 
                                 <div className="col-md-12 home-section-space">
                                     <nav>
-                                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                            <a class="nav-item nav-link active card-shadow" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Trioangle Technologies</a>
-                                            <a class="nav-item nav-link card-shadow" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Jovee Infotech</a>                                            
+                                        <div className="nav nav-tabs" id="nav-tab" role="tablist">
+                                            <a className="nav-item nav-link active card-shadow" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Trioangle Technologies</a>
+                                            <a className="nav-item nav-link card-shadow" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Jovee Infotech</a>                                            
                                         </div>
                                     </nav>
-                                    <div class="tab-content" id="nav-tabContent">
-                                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div className="tab-content" id="nav-tabContent">
+                                        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                             <div className="row exp-sec-space">
                                                 <div className="col-xl-3 col-lg-5 col-md-5 margin-t-20 animated fadeInUp">
                                                     <div className="exp-card card-bg card-shadow">
@@ -70,7 +70,7 @@ class ExperienceComponent extends Component{
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                        <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                             <div className="row exp-sec-space">
                                                 <div className="col-xl-3 col-lg-5 col-md-5 margin-t-20 animated fadeInUp">
                                                     <div className="exp-card card-bg card-shadow">

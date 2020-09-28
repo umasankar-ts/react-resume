@@ -14,22 +14,22 @@ class AboutComponent extends Component {
 	    	 	<div className="content-wrapper">
 	    	 		<div className="container-fluid">
 		            	<div className="row">
-		            		<h1 className="col-md-12 col-12 heading primary-light-font fancy-heading">About Me</h1> 
+		            		<h1 className="col-md-12 col-12 heading primary-dark-font fancy-heading">About Me</h1> 
 		            		<div className="col-md-12 col-12 home-section-space">
 		            			<div className="card-bg animated fadeInDown card-shadow">
 		            				<div className="about-card"> 
 	                                    <div className="row align-items-center">
 	                                    	<div className="col-xl-2 col-lg-4 col-md-5 col-12" align="center">
                                     			<div className="about-profile-pic card-shadow">
-                                    				<img src="images/profile.png" className="img-fluid"/>
+                                    				<img src="images/profile.png" className="img-fluid" alt="Profile"/>
                                     			</div>
 	                                    	</div>
 	                                    	<div className="col-xl-10 col-lg-8 col-md-7 col-12 profile-details">
 	                                			<div className="about-card-content ">
                                     				<h5 className="primary-dark-font about-name">UMASANKAR T S</h5>
                                     				<p className="about-designation">Android Development Team Lead</p>
-                                    				<p><i className="lni lni-envelope align-middle primary-light-font"/> <a href="mailto:umasankar.tsj@gmail.com" className="secondary-dark-font">umasankar.tsj@gmail.com</a></p>
-                                    				<p><i className="lni-phone-handset align-middle primary-light-font"/> <a href="tel:8807527642" className="secondary-dark-font"> 8807527642</a></p>
+                                    				<p><i className="lni-envelope align-middle primary-light-font"/> <a href="mailto:umasankar.tsj@gmail.com" className="text-word-br primary-light-font">&nbsp;umasankar.tsj@gmail.com</a></p>
+                                    				<p><i className="lni-mobile align-middle primary-light-font"/> <a href="tel:8807527642" className="primary-light-font">&nbsp;8807527642</a></p>
                                     			</div>
 	                                    	</div>	                                    	
 	                                    </div>
@@ -79,15 +79,12 @@ class AboutComponent extends Component {
 				            		<div className="card-bg card-shadow mb-3">
 				            			<div className="tech-skill-card-content">
 				            				<div className="row align-items-center">
-				            					<div className="col-md-3 col-3">
-				            						<img src="images/kotlin.png" className="img-fluid"/>
+				            					<div className="col-md-3 col-3" align="center">
+				            						<img src="images/kotlin.png" className="img-fluid" alt="Kotlin"/>
 				            					</div>
-				            					<div className="col-md-5 col-5 px-0">
+				            					<div className="col-md-9 col-9">
 				            						<p className="mb-0 tech-skill-name">Kotlin</p>
-				            					</div>
-				            					<div className="col-md-4 col-4" align="center">
-				            						<h6 className="mb-0 tech-percent">90%</h6>
-				            					</div>
+				            					</div>				            					
 				            				</div>			            				
 				            			</div>			            			
 				            		</div>
@@ -95,90 +92,72 @@ class AboutComponent extends Component {
 			            		<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-6s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
-			            					<div className="col-md-3 col-3">
-			            						<img src="images/java.png" className="img-fluid"/>
+			            					<div className="col-md-3 col-3" align="center">
+			            						<img src="images/java.png" className="img-fluid" alt="Java"/>
 			            					</div>
-			            					<div className="col-md-5 col-5 px-0">
+			            					<div className="col-md-9 col-9">
 			            						<p className="mb-0 tech-skill-name">Java</p>
-			            					</div>
-			            					<div className="col-md-4 col-4" align="center">
-			            						<h6 className="mb-0 tech-percent">95%</h6>
-			            					</div>
+			            					</div>			            					
 			            				</div>
 		            				</div>
 	            				</div>
 	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-9s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
-			            					<div className="col-md-3 col-3">
-			            						<img src="images/android.png" className="img-fluid"/>
+			            					<div className="col-md-3 col-3" align="center">
+			            						<img src="images/android.png" className="img-fluid" alt="Android"/>
 			            					</div>
-			            					<div className="col-md-5 col-5 px-0">
+			            					<div className="col-md-9 col-9">
 			            						<p className="mb-0 tech-skill-name">Android NDK</p>
-			            					</div>
-			            					<div className="col-md-4 col-4" align="center">
-			            						<h6 className="mb-0 tech-percent">97%</h6>
-			            					</div>
+			            					</div>			            					
 			            				</div>
 		            				</div>
 	            				</div>
 	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-12s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
-			            					<div className="col-md-3 col-3">
-			            						<img src="images/xml.png" className="img-fluid"/>
+			            					<div className="col-md-3 col-3" align="center">
+			            						<img src="images/xml.png" className="img-fluid" alt="Xml"/>
 			            					</div>
-			            					<div className="col-md-5 col-5 px-0">
+			            					<div className="col-md-9 col-9">
 			            						<p className="mb-0 tech-skill-name">XML</p>
-			            					</div>
-			            					<div className="col-md-4 col-4" align="center">
-			            						<h6 className="mb-0 tech-percent">95%</h6>
-			            					</div>
+			            					</div>			            					
 			            				</div>
 		            				</div>
 	            				</div>
 	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-15s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
-			            					<div className="col-md-3 col-3">
-			            						<img src="images/database.png" className="img-fluid"/>
+			            					<div className="col-md-3 col-3" align="center">
+			            						<img src="images/database.png" className="img-fluid" alt="Database"/>
 			            					</div>
-			            					<div className="col-md-5 col-5 px-0">
+			            					<div className="col-md-9 col-9">
 			            						<p className="mb-0 tech-skill-name">Couchbase DB</p>
-			            					</div>
-			            					<div className="col-md-4 col-4" align="center">
-			            						<h6 className="mb-0 tech-percent">90%</h6>
-			            					</div>
+			            					</div>			            					
 			            				</div>
 		            				</div>
 	            				</div>
 	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-18s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
-			            					<div className="col-md-3 col-3">
-			            						<img src="images/nativescript.png" className="img-fluid"/>
+			            					<div className="col-md-3 col-3" align="center">
+			            						<img src="images/nativescript.png" className="img-fluid" alt="Nativescript"/>
 			            					</div>
-			            					<div className="col-md-5 col-5 px-0">
+			            					<div className="col-md-9 col-9">
 			            						<p className="mb-0 tech-skill-name">NativeScript</p>
-			            					</div>
-			            					<div className="col-md-4 col-4" align="center">
-			            						<h6 className="mb-0 tech-percent">85%</h6>
-			            					</div>
+			            					</div>			            					
 			            				</div>
 		            				</div>
 	            				</div>
 	            				<div className="card-bg card-shadow tech-skill-card mb-3 animated fadeInRight anim-delay-21s">
 			            			<div className="tech-skill-card-content">
 			            				<div className="row align-items-center">
-			            					<div className="col-md-3 col-3">
-			            						<img src="images/vuejs.png" className="img-fluid"/>
+			            					<div className="col-md-3 col-3" align="center">
+			            						<img src="images/vuejs.png" className="img-fluid" alt="Vuejs"/>
 			            					</div>
-			            					<div className="col-md-5 col-5 px-0">
+			            					<div className="col-md-9 col-9">
 			            						<p className="mb-0 tech-skill-name">VueJS</p>
-			            					</div>
-			            					<div className="col-md-4 col-4" align="center">
-			            						<h6 className="mb-0 tech-percent">70%</h6>
-			            					</div>
+			            					</div>			            					
 			            				</div>
 		            				</div>
 	            				</div>
@@ -187,38 +166,38 @@ class AboutComponent extends Component {
 		            	<div className="row home-section-space">
 		            		<div className="col-xl-4 col-lg-12 col-md-12 mt-3 animated fadeInLeft anim-delay-6s">
                         		<div className="card-style primary-light-bg card-shadow">
-					            	<h6 className="fancy-title white-font mb-0 text-center">Motivations</h6>
+					            	<h6 className="fancy-title white-font mb-0 text-center">Personal Skills</h6>
 			            			<div className="personal-info-sec">
 			            				<div className="row">
 				            				<div className="col-md-12 display-inline">
-				               					<i className="lni-android objective-icon secondary-dark-font"></i>
-				               					<p className="white-font">Being Friendly</p>
+				               					<i className="lni-android objective-icon secondary-light-font"></i>
+				               					<p className="white-font">Leadership</p>
 				                			</div>
 			                			</div>
 			                			<div className="row">
 				            				<div className="col-md-12 display-inline">
-				               					<i className="lni-android objective-icon secondary-dark-font"></i>
-				               					<p className="white-font">Learning new stuff & evolving</p>
+				               					<i className="lni-android objective-icon secondary-light-font"></i>
+				               					<p className="white-font">Creativity</p>
 				                			</div>
 			                			</div>
 			            				<div className="row">
 				            				<div className="col-md-12 display-inline">
-				               					<i className="lni-android objective-icon secondary-dark-font"></i>
-				               					<p className="white-font">Meeting new People</p>
+				               					<i className="lni-android objective-icon secondary-light-font"></i>
+				               					<p className="white-font">Teamwork</p>
 				                			</div>
 			                			</div>
 			                			<div className="row">
 				            				<div className="col-md-12 display-inline">
-				               					<i className="lni-android objective-icon secondary-dark-font"></i>
+				               					<i className="lni-android objective-icon secondary-light-font"></i>
+				               					<p className="white-font">Learning new stuff & evolving</p>
+				                			</div>
+			                			</div>			            				
+			                			<div className="row">
+				            				<div className="col-md-12 display-inline">
+				               					<i className="lni-android objective-icon secondary-light-font"></i>
 				               					<p className="white-font">Making Brave Decisions</p>
 				                			</div>
-			                			</div>
-			                			<div className="row">
-				            				<div className="col-md-12 display-inline">
-				               					<i className="lni-android objective-icon secondary-dark-font"></i>
-				               					<p className="white-font">Making a work of Art</p>
-				                			</div>
-			                			</div>
+			                			</div>			                			
 			            			</div>
 			            			<img src="/images/motivation.svg" className="img-fluid motivation-img move-up-down" alt="Breaking Barrier"/>
 		            			</div>

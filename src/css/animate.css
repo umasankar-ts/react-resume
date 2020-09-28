@@ -30,13 +30,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-delay: 0.9s
 }
 .anim-delay-12s{
-   animation-delay: 0.9s
+  animation-delay: 0.9s
 }
 .anim-delay-15s{
-   animation-delay: 1.2s
+  animation-delay: 1.2s
 }
 .anim-delay-18s{
-   animation-delay: 1.5s
+  animation-delay: 1.5s
 }
 .anim-delay-21s{
   animation-delay: 1.8s
@@ -2780,55 +2780,55 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .move-up-down {
-    -webkit-animation: mover 1.7s infinite  alternate;
-    animation: mover 1.7s infinite  alternate
+  -webkit-animation: mover 1.7s infinite  alternate;
+  animation: mover 1.7s infinite  alternate
 }
 .swing-anim {
-    -webkit-animation: swing 2s infinite  alternate;
-    animation: swing 2s infinite  alternate
+  -webkit-animation: swing 2s infinite  alternate;
+  animation: swing 2s infinite  alternate
 }
 
 .flip-anim{
-    -webkit-animation: flipInY 2s infinite  alternate;
-    animation: flipInY 2s infinite  alternate
+  -webkit-animation: flipInY 2s infinite  alternate;
+  animation: flipInY 2s infinite  alternate
 }
 .rotate-anim{
   -webkit-animation: rotateIn 2s infinite  alternate;
-    animation: rotateIn 2s infinite  alternate
+  animation: rotateIn 2s infinite  alternate
 }
 @-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-12px) }
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-12px) }
 }
 @keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-12px) }
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-12px) }
 }
 .run-anim{
-    -webkit-animation: run 2s infinite  alternate;
-    animation: run 2s infinite  alternate;
-   
+  -webkit-animation: run 2s infinite  alternate;
+  animation: run 2s infinite  alternate;
+
 }
 .running-anim{
-      -webkit-animation: running1 3s infinite  alternate;
-    animation: running1 3s infinite  alternate;
+  -webkit-animation: running1 3s infinite  alternate;
+  animation: running1 3s infinite  alternate;
 }
 
 @-webkit-keyframes run {
-    0% { left: 26%;}
-    100%{ left: 27%;}
+  0% { left: 26%;}
+  100%{ left: 27%;}
 }
 @keyframes run {
- 0% { left: 26%;}
-    100%{ left: 27%;}
+  0% { left: 26%;}
+  100%{ left: 27%;}
 }
 
 @-webkit-keyframes running1 {
-    0% { left: 45%;}
-    100%{ left: 47%;}
+  0% { left: 45%;}
+  100%{ left: 47%;}
 }
 @keyframes running1 {
- 0% { left: 45%;}
-    100%{ left: 47%;}
+  0% { left: 45%;}
+  100%{ left: 47%;}
 }
 

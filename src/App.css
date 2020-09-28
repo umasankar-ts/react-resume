@@ -116,25 +116,28 @@ Colors
 ===========*/
 
 .primary-dark-bg{
-    background-color: #3d5654
+    /*background-color: #3d5654*/
+    background-color: #0DA1B1
 }
 .primary-light-bg{
-    background-color: #425c5a
+    background-color: #15a5b5
 }
 .primary-dark-font{
-    color: #425c5a
+    /*color: #425c5a*/
+    color: #0DA1B1
 }
 .primary-light-font{
-    color: #425c5a
+    /*color: #425c5a*/
+    color: #15a5b5
 }
 .content-light-bg{
     background-color: #e1eceb
 }
-.secondary-dark-bg{
-    background-color: #c99c33
-}
 .secondary-dark-font{
-    color: #c99c33
+    color: #c99c33   
+}
+.secondary-light-font{
+    color: #d0edf1
 }
 .white-font{
     color: #ffffff
@@ -231,7 +234,11 @@ Sidebar
 }
 .is-active{
     background-color: #fff;
-    color: #425c5a !important
+    /*color: #425c5a !important*/
+    color: #0DA1B1 !important
+}
+.is-active i{
+    color: #0DA1B1
 }
 .scrollbar {
     overflow-y: scroll
@@ -408,7 +415,7 @@ Skill Component
 ======================*/
 
 .tech-skill-card-content{
-    padding: 5px;
+    padding: 5px 12px;
 }
 .card-shadow{
     box-shadow: inset 0 0 15px rgba(55, 84, 170, 0), inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, 0.15), -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);
@@ -526,7 +533,7 @@ Skill Component
     -moz-box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2), inset -3px -3px 5px 0 rgba(255, 255, 255, 0.5); 
     -o-box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2), inset -3px -3px 5px 0 rgba(255, 255, 255, 0.5);    
     border-color: transparent;
-    color: #425c5a;
+    color: #0DA1B1;
     font-weight: 600
 }
 .nav-tabs a{
@@ -573,7 +580,6 @@ Skill Component
     padding-top: 100px
 }
 .home-sec h1{
-    color:#24bdc9;
     font-size: 42px;
     font-weight: 850;
     line-height: 60px
@@ -587,8 +593,7 @@ Skill Component
     padding: 20px 0px;
     line-height: 1.8
 }
-.home-btn-style{
-    background-color: #24bdc9;
+.home-btn-style{    
     color: #fff;
     border-radius: 30px;
     font-weight: 500;
@@ -597,9 +602,9 @@ Skill Component
     padding: 10px 30px
 }
 .home-btn-style:hover{
-    color: #24bdc9;
+    color: #0DA1B1;
     background: transparent;
-    border: 1px dotted #24bdc9;
+    border: 1px dotted #0DA1B1;
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out
@@ -616,9 +621,7 @@ Skill Component
 .font-icon-card{
     line-height: 26px;
     text-align: center;
-    border-radius: 50%;
-    background-color: #D8ECEF;
-    color: #24bdc9;
+    border-radius: 50%;  
     font-size: 15px;
     transition: all .5s;
     padding: 8px 12px;
@@ -628,8 +631,8 @@ Skill Component
 
 
 .font-icon-card:hover{
-    color: #fff;
-    background-color: #24bdc9
+    color: #fff !important;
+    background-color: #15a5b5
 }
 
 .home-gif1{
@@ -714,40 +717,6 @@ Skill Component
 .masonry .grid img {
   width: 100%;
   border-radius: 5px;
-}
-.masonry .grid-title {
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0px 0px 10px 0px;
-}
-.masonry .grid__author {
-  font-size: 14px;
-  font-weight: 300;
-}
-.masonry .grid-link {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.masonry .grid-body {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  padding: 30px 30px;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-}
-.masonry .grid-tag {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
-  border-radius: 5px;
-  padding: 5px 15px;
-  margin-bottom: 5px;
 }
 
 .mt-auto {

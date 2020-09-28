@@ -41,8 +41,8 @@ class PortfolioComponent extends Component{
                 <div className="content-wrapper">
                     <div className="container-fluid">                        
                     	<div className="row">
-                            <h1 className="col-md-12 heading primary-light-font fancy-heading">My Portfolio</h1>
-                            <div className="col-md-12">
+                            <h1 className="col-md-12 heading primary-dark-font fancy-heading">My Portfolio</h1>
+                            <div className="col-md-12 animated fadeInDown">
                                 <Slider {...settings}>
                                     <img src="/images/ui1.png" className="img-fluid" alt="App screenshot1"/>
                                     <img src="/images/ui2.png" className="img-fluid" alt="App screenshot2"/>
