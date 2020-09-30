@@ -59,7 +59,9 @@
   </script>
   <script>
     if ($(window).width() < 830) {
-      window.screen.orientation.lock('landscape')
+      window.screen.orientation.lock('landscape').catch(function(error) {
+        //console.log('')
+      });
     }
   </script>
 </html>
