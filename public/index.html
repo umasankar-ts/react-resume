@@ -58,10 +58,14 @@
         }
   </script>
   <script>
+    var lockScreen = document.getElementById("thumb-impression");
     if ($(window).width() < 830) {
-      window.screen.orientation.lock('landscape').catch(function(error) {
+      lockScreen.addEventListener("click", function() {
+        window.screen.orientation.lock('landscape').catch(function(error) {
         //console.log('')
+        });          
       });
+      
     }
   </script>
 </html>
