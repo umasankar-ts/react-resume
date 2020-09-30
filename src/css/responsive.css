@@ -80,7 +80,7 @@
 		display: none
 	}
 	.home-gif3{
-		top: 86%
+		top: 107%
 	}
 	.home-gif4{
 		bottom: 47%;
@@ -130,18 +130,4 @@ and (-webkit-min-device-pixel-ratio: 2){
  		display: none;
  	}
 
-}
-
-/*Mobileview Portrait mode*/
-@media (max-width: 767px) and (orientation:portrait) {
-   .sidebar, .content-wrapper{
-   		display:none
-   }
-   .message{
-   		display: block
-   }
-   body{
-   		/*background:#425c5a*/
-   		background-color: #0DA1B1
-   }
 }

@@ -2783,10 +2783,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation: mover 1.7s infinite  alternate;
   animation: mover 1.7s infinite  alternate
 }
-.swing-anim {
-  -webkit-animation: swing 2s infinite  alternate;
-  animation: swing 2s infinite  alternate
-}
 
 .flip-anim{
   -webkit-animation: flipInY 2s infinite  alternate;
@@ -2832,3 +2828,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   100%{ left: 47%;}
 }
 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin{
+  from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.spin-anim{  
+  -webkit-animation: spin 7s infinite linear;
+  animation: spin 7s infinite linear
+}

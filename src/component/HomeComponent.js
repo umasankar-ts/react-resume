@@ -16,12 +16,12 @@ class HomenewComponent extends Component {
 	    	 		<div className="container">
 	    	 			<div className="animate-gif">
 	    	 				<img src="images/anim-img1.png" className="img-fluid home-gif1 move-up-down" alt="Animation object1"/>
-	    	 				<img src="images/anim-img1.png" className="img-fluid home-gif2 swing-anim" alt="Animation object2"/>
+	    	 				<img src="images/anim-img1.png" className="img-fluid home-gif2 spin-anim" alt="Animation object2"/>
 	    	 				<img src="images/anim-img2.png" className="img-fluid home-gif3 running-anim" alt="Animation object3"/>
 	    	 				<img src="images/anim-img2.png" className="img-fluid home-gif4 flip-anim" alt="Animation object4"/>
 	    	 				<img src="images/anim-img4.png" className="img-fluid home-gif5 rotate-anim" alt="Animation object5"/>
 	    	 				<img src="images/anim-img3.png" className="img-fluid home-gif6 rotate-anim" alt="Animation object6"/>
-	    	 				<img src="images/anim-img2.png" className="img-fluid home-gif7 rotate-anim" alt="Animation object7"/>
+	    	 				<img src="images/anim-img2.png" className="img-fluid home-gif7 spin-anim" alt="Animation object7"/>
 	    	 				<img src="images/anim-img1.png" className="img-fluid home-gif8 run-anim" alt="Animation object8"/>
 	    	 			</div>
     	 			 	<div className="row home-sec align-items-center">

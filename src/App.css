@@ -642,8 +642,8 @@ Skill Component
 }
 .home-gif2{
     position: absolute;
-    left: 20%;
-    bottom: 32%
+    left: 15%;
+    bottom: 7%
 }
 .home-gif3{
     position: absolute;
@@ -652,13 +652,13 @@ Skill Component
 }
 .home-gif4{
     position: absolute;
-    bottom: 64%;
+    bottom: 32%;
     right: 15%
 
 }
 .home-gif5{
     position: absolute;
-    top: 22%;
+    top: 35%;
     left: 19%
 
 }
