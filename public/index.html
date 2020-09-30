@@ -53,9 +53,14 @@
     var goFullScreen = document.getElementById("root");
         if ($(window).width() < 830) {
           goFullScreen.addEventListener("click", function() {
-            document.documentElement.requestFullscreen();
+            document.documentElement.requestFullscreen();            
           }, false);
         }
+  </script>
+  <script>
+    if ($(window).width() < 830) {
+      window.screen.orientation.lock('landscape')
+    }
   </script>
 </html>
 <!-- 

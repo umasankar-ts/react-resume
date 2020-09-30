@@ -131,3 +131,17 @@ and (-webkit-min-device-pixel-ratio: 2){
  	}
 
 }
+
+/*Mobileview Portrait mode*/
+@media (max-width: 767px) and (orientation:portrait) {
+   .sidebar, .content-wrapper{
+   		display:none
+   }
+   .message{
+   		display: block
+   }
+   body{
+   		/*background:#425c5a*/
+   		background-color: #0DA1B1;
+   }
+}
