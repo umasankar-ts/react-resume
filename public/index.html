@@ -53,20 +53,9 @@
     var goFullScreen = document.getElementById("root");
         if ($(window).width() < 830) {
           goFullScreen.addEventListener("click", function() {
-            document.documentElement.requestFullscreen();            
+            document.documentElement.requestFullscreen();
           }, false);
         }
-  </script>
-  <script>
-    var lockScreen = document.getElementById("thumb-impression");
-    if ($(window).width() < 830) {
-      lockScreen.addEventListener("click", function() {
-        window.screen.orientation.lock('landscape').catch(function(error) {
-        //console.log('')
-        });          
-      });
-      
-    }
   </script>
 </html>
 <!-- 
