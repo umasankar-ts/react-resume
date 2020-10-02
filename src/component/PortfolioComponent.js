@@ -31,10 +31,8 @@ class PortfolioComponent extends Component{
             ]*/
         };
 		return(
-		 	<div>
-                <div className="sidebar primary-light-bg scrollbar">
-                    <SidebarComponent></SidebarComponent>               
-                </div>
+		 	<div>                
+                <SidebarComponent></SidebarComponent>                 
                 <div>
                     <MessageComponent></MessageComponent>
                 </div>

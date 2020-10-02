@@ -9,7 +9,7 @@ class InitialComponent extends	Component{
 	}
 	render(){
 		return(
-			<div className="initial-bg">
+			<div className="initial-bg primary-dark-bg">
 	            <div className="fingerprint-section text-center w-100">
 	            	<NavLink to="/home"> 
 	                	<img src="../images/fingerprint.png" className="img-fluid finger-print-img" onClick={this.lock} alt="Fingerprint icon"/> 

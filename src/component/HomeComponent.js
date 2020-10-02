@@ -5,10 +5,8 @@ import {NavLink} from 'react-router-dom';
 class HomenewComponent extends Component {
     render() {
         return (
-        	<div>
-        		<div className="sidebar primary-light-bg scrollbar">
-	    	 		<SidebarComponent></SidebarComponent>    	 		
-	    	 	</div>
+        	<div>        		
+    	 		<SidebarComponent></SidebarComponent>   	    	 	
 	    	 	<div>
 	    	 		<MessageComponent></MessageComponent>
 	    	 	</div>

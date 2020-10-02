@@ -5,10 +5,8 @@ import MessageComponent from './MessageComponent';
 class ExperienceComponent extends Component{
 	render(){
 		return(
-                <div>
-                    <div className="sidebar primary-light-bg scrollbar">
-                        <SidebarComponent></SidebarComponent>               
-                    </div>
+                <div>                    
+                    <SidebarComponent></SidebarComponent>                     
                     <div>
                         <MessageComponent></MessageComponent>
                     </div>
