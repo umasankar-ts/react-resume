@@ -184,7 +184,8 @@ Sidebar
 ==================*/
 .sidebar {
     background-image: url(/images/sidemenu-bg.jpg);
-    background-size: cover;    
+    background-size: cover;   
+    background-color: #264460; 
     box-shadow: 10px 15px 30px 1px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 10px 15px 30px 1px rgba(0, 0, 0, .1);
     -moz-box-shadow: 10px 15px 30px 1px rgba(0, 0, 0, .1);
