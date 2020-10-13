@@ -16,51 +16,43 @@ class EducationComponent extends Component{
                                 <h1 className="col-md-12 heading primary-dark-font fancy-heading">Education</h1>
                                 <div className="col-xl-7 col-lg-8 col-md-12 edu-sec-space">
                                     <div className="edu-card card-bg animated fadeInLeft card-shadow">
-                                        <div className="row align-items-center">
-                                            <div className="col-md-10">
+                                        <div className="row align-items-center edu-content">
+                                            <div className="col-md-12">
                                                 <h6><b>M.Sc</b> (Computer Science & Information Technology)</h6>
                                                 <p className="secondary-dark-font">Sourashtra College, Madurai</p>
-                                                <p>April 2016</p>
-                                            </div>
-                                            <div className="col-md-2">
-                                            <h6>82%</h6>
-                                            </div>
+                                                <p className="dark-bg-font">April 2016</p>
+                                                <h6>82%</h6>
+                                            </div>                                            
                                         </div>
                                     </div>
                                     <div className="edu-card card-bg animated fadeInRight card-shadow">
-                                        <div className="row align-items-center">
-                                            <div className="col-md-10">
+                                        <div className="row align-items-center edu-content">
+                                            <div className="col-md-12">
                                                 <h6><b>B.Sc</b> (Computer Science)</h6>
                                                 <p className="secondary-dark-font">Sourashtra College, Madurai</p>
-                                                <p>April 2012</p>
-                                            </div>
-                                            <div className="col-md-2">
-                                            <h6>72%</h6>
-                                            </div>
+                                                <p className="dark-bg-font">April 2012</p>
+                                                <h6>72%</h6>
+                                            </div>                                            
                                         </div>
                                     </div>
                                     <div className="edu-card card-bg animated fadeInLeft card-shadow">
-                                        <div className="row align-items-center">
-                                            <div className="col-md-10">
+                                        <div className="row align-items-center edu-content">
+                                            <div className="col-md-12">
                                                 <h6><b>HSC</b></h6>
                                                 <p className="secondary-dark-font">Sethupathi Higher Secondary School, Madurai</p>
-                                                <p>March 2009</p>
-                                            </div>
-                                            <div className="col-md-2">
-                                            <h6>66.07%</h6>
-                                            </div>
+                                                <p className="dark-bg-font">March 2009</p>
+                                                <h6>66.07%</h6>
+                                            </div>                                            
                                         </div>
                                     </div>
                                     <div className="edu-card card-bg animated fadeInRight card-shadow">
-                                        <div className="row align-items-center">
-                                            <div className="col-md-10">
+                                        <div className="row align-items-center edu-content">
+                                            <div className="col-md-12">
                                                 <h6><b>SSLC</b></h6>
                                                 <p className="secondary-dark-font">Sethupathi Higher Secondary School, Madurai</p>
-                                                <p>March 2008</p>
-                                            </div>
-                                            <div className="col-md-2">
-                                            <h6>65.5%</h6>
-                                            </div>
+                                                <p className="dark-bg-font">March 2008</p>
+                                                <h6>65.5%</h6>
+                                            </div>                                            
                                         </div>
                                     </div>
                                 </div>

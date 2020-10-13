@@ -3,9 +3,12 @@ import {NavLink} from 'react-router-dom';
 
 class InitialComponent extends	Component{
 	lock(){
-		window.screen.orientation.lock('landscape').catch(function(error) {
-    		//console.log('')
-		});
+		 if ((window).width < 830) {
+			document.documentElement.requestFullscreen();
+			window.screen.orientation.lock('landscape').catch(function(error) {
+    			//console.log('')
+			});
+		}
 	}
 	render(){
 		return(

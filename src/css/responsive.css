@@ -7,6 +7,12 @@
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
 }
+@media (min-width: 200px) and (max-width: 550px) {
+	.qualification-content{
+		margin-left: 35px
+	}
+}
+
 /* mobile or only mobile */
 @media (max-width: 767px) {
 	.highlight-text-center{
@@ -18,12 +24,13 @@
 	}
 	
 }
+
 @media (min-width:831px){
 	.qualify-desk-view{
 		display: block
 	}
 	.qualify-mob-view{
-		display: none;
+		display: none
 	}
 }
 /*Large mobile device*/
@@ -32,17 +39,16 @@
 		width: 190px
 	}	
 	.content-wrapper {
-    	margin-left: 190px;
-    	padding-top: 35px    	
+    	margin-left: 190px    	 	
 	}
 	.logo-section{
-		padding: 12px 10px;
+		padding: 12px 10px
 	}
 	.user-name{
 		font-size: 20px !important
 	}
 	.sidebar-nav-menu>li>a {
-		padding: 6px;
+		padding: 6px 10px;
 		font-size: 12px
 	}
 	.edu-image, .qualify-image{
@@ -62,10 +68,11 @@
 	}
 	.qualify-mob-card{
 		width: 100%;
-		padding: 7px;		
+		padding: 17px 7px;
+		border-radius: 40px	
 	}
 	.qualify-mob-card p{
-		font-size: 12px
+		font-size: 14px
 	}
 	.qualify-mob-view{
 		display: block
@@ -98,9 +105,30 @@
 	.tech-percent{
 		font-size: 14px
 	}
-	.sidebar-nav-menu>li{
-		margin-left: 5px
+	
+	.circular-icon{
+	    width: 60px;
+	    height: 60px;
+	    border-radius: 50%;
+	    background-color: #fff;
+	    position: absolute;
+	    align-items: center;
+	    justify-content: center;
+	    display: flex;	    
+	    left: 0	    
 	}
+	.circular-icon i{
+		font-size: 22px
+	}
+	.qualify-list{
+    	position: relative;
+    	display: contents
+	}
+	.qualification-content{
+		margin-left: 70px;
+		width: 100%;
+		word-break: break-word
+	}	
 
 }
 
@@ -127,7 +155,7 @@ and (-webkit-min-device-pixel-ratio: 2){
  		padding: 122px 0px
  	}
  	.qualify-img-sec{
- 		display: none;
+ 		display: none
  	}
 
 }
@@ -142,6 +170,6 @@ and (-webkit-min-device-pixel-ratio: 2){
    }
    body{
    		/*background:#425c5a*/
-   		background-color: #0DA1B1;
+   		background-color: #0DA1B1
    }
 }
