@@ -15,7 +15,7 @@ class InitialComponent extends	Component{
 			<div className="initial-bg primary-dark-bg">
 	            <div className="fingerprint-section text-center w-100">
 	            	<NavLink to="/home"> 
-	                	<img src="../images/fingerprint.png" className="img-fluid finger-print-img" onClick={this.lock} alt="Fingerprint icon"/> 
+	                	<img src="../images/fingerprint.png" className="img-fluid finger-print-img" alt="Fingerprint icon"/> 
 	            	</NavLink>                               
 	            </div>
             </div> 
