@@ -32,33 +32,6 @@ class App extends Component {
             </Router>                
         )
     }
-/*    constructor(props) {
-        super(props)
-        this.state = {
-            isClicked: false
-        }
-    }
-
-    clickHandler = () => {
-        this.setState({
-            isClicked: true
-        })
-    }
-
-    render() {
-        return (
-            this.state.isClicked ? <BaseComponent></BaseComponent> :
-                <div className="container">
-                    <div className="row" align="center">
-                        <div className="col-md-12">
-                            <div className="fingerprint-section">
-                                <img src="../images/fingerprint.png" onClick={this.clickHandler} className="img-fluid finger-print-img"/>                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        )
-    }*/
 }
 
 export default App;
