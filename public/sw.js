@@ -2,8 +2,7 @@ let cacheData ="appV1"
 this.addEventListener("install",(event)=>{
 	event.waitUntil(
 		caches.open(cacheData).then((cache)=>{
-			cache.addAll([
-				'/sw.js',
+			cache.addAll([				
 				'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css',				
 				'https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap',
 				'/fonts/line-icons.css',
@@ -79,7 +78,7 @@ this.addEventListener("install",(event)=>{
 	)
 })
 
-this.addEventListener("fetch",(event)=>{
+/*this.addEventListener("fetch",(event)=>{
 	if(!navigator.onLine){
 		event.respondWith(
 			caches.match(event.request).then((response)=>{
@@ -89,4 +88,25 @@ this.addEventListener("fetch",(event)=>{
 			})
 		)
 	}	
+})*/
+
+this.addEventListener("fetch", function(event) { 
+	if(!navigator.onLine){
+ 		event.respondWith((async () => {
+	  		const cachedResponse = await caches.match(event.request);
+			if (cachedResponse) {
+				return cachedResponse;
+			}
+	  		const response = await fetch(event.request);
+			if (!response || response.status !== 200 || response.type !== 'basic') {
+				return response;
+			}
+			if (ENABLE_DYNAMIC_CACHING) {
+				const responseToCache = response.clone();
+				const cache = await caches.open(DYNAMIC_CACHE)
+				await cache.put(event.request, response.clone());
+			}
+	  		return response;
+		})());
+	}
 })
