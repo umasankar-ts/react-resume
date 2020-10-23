@@ -9,9 +9,9 @@ this.addEventListener("install",(event)=>{
 				'/fonts/LineIcons.ttf?tc3uo0',
 				'/fonts/LineIcons.woff?tc3uo0',
 				'/manifest.json',
-				'/static/css/2.bf0413c3.chunk.css',
-				'/static/css/main.53afbe87.chunk.css',
-				'/static/js/main.d886292b.chunk.js',
+				'/static/css/2.*.chunk.css',
+				'/static/css/main.*.chunk.css',
+				'/static/js/main.*.chunk.js',
 				'/static/js/main.chunk.js',
 				'/static/js/1.chunk.js',				
 				'/static/js/bundle.js',
@@ -91,7 +91,7 @@ this.addEventListener("install",(event)=>{
 })*/
 
 this.addEventListener("fetch", function(event) { 
-	if(!navigator.onLine){
+	
  		event.respondWith((async () => {
 	  		const cachedResponse = await caches.match(event.request);
 			if (cachedResponse) {
@@ -108,5 +108,5 @@ this.addEventListener("fetch", function(event) {
 			}
 	  		return response;
 		})());
-	}
+	
 })
