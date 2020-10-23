@@ -3,14 +3,14 @@ this.addEventListener("install",(event)=>{
 	event.waitUntil(
 		caches.open(cacheData).then((cache)=>{
 			cache.addAll([
+				'/sw.js',
 				'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css',				
 				'https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap',
 				'/fonts/line-icons.css',
 				'/fonts/LineIcons.ttf?tc3uo0',
 				'/fonts/LineIcons.woff?tc3uo0',
 				'/manifest.json',
-				'/static/js/main.f05bece2.chunk.js',
-				'/static/js/2.ade3555b.chunk.js',
+				'/static/js/main.f05bece2.chunk.js',				
 				'/static/js/main.chunk.js', 
 				'/static/js/2.ade3555b.chunk.js',
 				'/static/js/1.chunk.js',
