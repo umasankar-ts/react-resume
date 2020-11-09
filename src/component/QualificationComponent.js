@@ -13,7 +13,7 @@ class QualificationComponent extends Component{
                 <div className="content-wrapper">
                     <div className="container-fluid">
                         <div className="row">
-                            <h1 className="col-md-12 heading primary-dark-font fancy-heading">Core Qualification</h1>
+                            <h1 className="col-md-12 heading primary-dark-font fancy-heading animated fadeInLeft">Core Qualification</h1>
                         </div>
                         <div className="qualify-desk-view">                            
                             <div className="row qualify-sec-space">                                

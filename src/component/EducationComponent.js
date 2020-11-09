@@ -13,7 +13,7 @@ class EducationComponent extends Component{
                     <div className="content-wrapper">
                         <div className="container-fluid">                            
                             <div className="row align-items-center">
-                                <h1 className="col-md-12 heading primary-dark-font fancy-heading">Education</h1>
+                                <h1 className="col-md-12 heading primary-dark-font fancy-heading animated fadeInLeft">Education</h1>
                                 <div className="col-xl-7 col-lg-8 col-md-12 edu-sec-space">
                                     <div className="edu-card card-bg animated fadeInLeft card-shadow">
                                         <div className="row align-items-center edu-content">

@@ -13,7 +13,7 @@ class ExperienceComponent extends Component{
                     <div className="content-wrapper">
                         <div className="container-fluid">                            
                             <div className="row">
-                                <h1 className="col-md-12 heading primary-dark-font fancy-heading">Experience</h1> 
+                                <h1 className="col-md-12 heading primary-dark-font fancy-heading animated fadeInLeft">Experience</h1> 
                                 <div className="col-md-12 home-section-space">
                                     <nav>
                                         <div className="nav nav-tabs" id="nav-tab" role="tablist">

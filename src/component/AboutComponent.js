@@ -12,7 +12,7 @@ class AboutComponent extends Component {
 	    	 	<div className="content-wrapper">
 	    	 		<div className="container-fluid">
 		            	<div className="row">
-		            		<h1 className="col-md-12 col-12 heading primary-dark-font fancy-heading">About Me</h1> 
+		            		<h1 className="col-md-12 col-12 heading primary-dark-font fancy-heading animated fadeInLeft">About Me</h1> 
 		            		<div className="col-md-12 col-12 home-section-space">
 		            			<div className="card-bg animated fadeInDown card-shadow">
 		            				<div className="about-card"> 

@@ -13,7 +13,7 @@ class HobbiesComponent extends Component{
                 <div className="content-wrapper">
                     <div className="container-fluid">                            
                         <div className="row">
-                            <h1 className="col-md-12 heading primary-dark-font fancy-heading">Fashion Designer</h1>
+                            <h1 className="col-md-12 heading primary-dark-font fancy-heading animated fadeInLeft">Fashion Designer</h1>
                             <div className="col-md-12 home-section-space" align="center">                            	
                                 <div className="masonry">
                                     <div className="grid animated fadeInDown anim-delay-3s">
