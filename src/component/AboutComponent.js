@@ -35,7 +35,7 @@ class AboutComponent extends Component {
 	                            </div>
                             </div>
 		            	</div>
-		            	
+
 		            	<div className="row">	    	 				
 		            		<div className="col-xl-8 col-lg-7 col-md-12 home-section-space">
                                 <h6 className="fancy-title primary-light-font mb-0">Personal Info</h6>
@@ -72,6 +72,7 @@ class AboutComponent extends Component {
                                 	</div>
                                 </div>		            			
 		            		</div>
+		            		
 		            		<div className="col-xl-4 col-lg-5 col-md-12 home-section-space">
 		            			<div className="animated fadeInRight anim-delay-3s">
 				            		<h6 className="fancy-title primary-light-font">Technical Skills</h6>
